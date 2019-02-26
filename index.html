@@ -1,0 +1,211 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>{{ site.long_title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" />
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css" />
+
+    <style>
+
+        body {
+            padding: 1em;
+        }
+
+        h1 {
+            margin-top: 0.1em;
+        }
+
+        .soft {
+            color: gray;
+        }
+
+        .testGroup .raw {
+            font-size: 75%;
+            vertical-align: text-top;
+        }
+
+        #menuDevelop, #menuTranslate {
+            background-color: #ffefae;
+            box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .pure-menu-children {
+            background-color: #feffd1;
+            box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .testGroup {
+            margin: 0.5em;
+            padding: 0.5em;
+            background-color: #f6fbff;
+        }
+
+        .leadIntro, .menuTop, .importantNotes {
+            margin: 0em;
+            padding: 0.5em;
+        }
+
+        .howToUse {
+            margin: 0.5em 0 0.5em 0.5em;
+        }
+
+        .testGroup h3 {
+            margin-top: 0;
+        }
+
+        @media (max-width: 420px) {
+            h1 {
+                font-size: 135%;
+                line-height: 25px;
+            }
+        }
+
+    </style>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="shortcut icon" href="https://storage.googleapis.com/peticiones-greenpeace-2018/ico/favicon.png" />
+    <meta name="description" content="Develop, test and translate interactive visualisations in different Greenpeace layouts" />
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125465776-1"></script>
+    <script>
+        if ( window.location.hostname == "greenpeace.github.io" ) {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-125465776-1');
+        }
+    </script>
+    <!-- /Global site tag (gtag.js) - Google Analytics -->
+
+</head>
+<body>
+    <div class="menuTop">
+        <div class="pure-menu pure-menu-horizontal">
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" id="menuDevelop" class="pure-menu-link" title="Links for developers and testers">Develop</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item"><a data-click="_includes" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/tree/master/_includes" target="_blank" class="pure-menu-link" title="Your project's code to create the visualizations">Visualisation source code</a></li>
+                        <li class="pure-menu-item"><a data-click="issues" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/issues" target="_blank" class="pure-menu-link" title="Report an issue or check exiting issues with your project">Issue management</a></li>
+                        <li class="pure-menu-item"><a data-click="wiki" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/wiki" target="_blank" class="pure-menu-link" title="Your project documentation">Documentation wiki</a></li>
+                        <li class="pure-menu-item"><a data-click="projects" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/projects" target="_blank" class="pure-menu-link" title="Plan your project">Project boards</a></li>
+                        <li class="pure-menu-item pure-menu-disabled">------------ Docs ------------</li>
+                        <li class="pure-menu-item"><a data-click="readme" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/blob/master/README.md" target="_blank" class="pure-menu-link" title="Your project's README"><strong>How to develop from here</strong></a></li>
+                        <li class="pure-menu-item"><a data-click="vis-guide" href="https://greenpeace.github.io/gpes-visualisations/" target="_blank" class="pure-menu-link" title="Guide to create visualisations for our sites">Visualisations Guide</a></li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" id="menuTranslate" class="pure-menu-link" title="Links for translators">Translate</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item"><a data-click="_data" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/tree/master/_data" target="_blank" class="pure-menu-link" title="Translate your project here">Languages folder</a></li>
+                        <li class="pure-menu-item"><a data-click="issues-translations" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/labels/translation" target="_blank" class="pure-menu-link" title="Issues and requests for translation">Translation issues</a></li>
+                    </ul>
+                </li>
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" id="menuTranslate" class="pure-menu-link" title="View the piece and access it's source code.">Get</a>
+                    <ul class="pure-menu-children">
+                        <li class="pure-menu-item"><a data-click="raw-es-ES" href="es/raw.html" target="_blank" class="pure-menu-link raw">es-ES</a></li>
+                        <li class="pure-menu-item"><a data-click="raw-eu-ES" href="es/eu-raw.html" target="_blank" class="pure-menu-link raw">eu-ES</a></li>
+                        <li class="pure-menu-item"><a data-click="raw-ca-ES" href="es/ca-raw.html" target="_blank" class="pure-menu-link raw">ca-ES</a></li>
+                        <li class="pure-menu-item"><a data-click="raw-gl-ES" href="es/gl-raw.html" target="_blank" class="pure-menu-link raw">gl-ES</a></li>
+                        <li class="pure-menu-item pure-menu-disabled">-------</li>
+                        <li class="pure-menu-item"><a data-click="raw-en-GB" href="uk/raw.html" target="_blank" class="pure-menu-link raw">en-GB</a></li>
+                        <li class="pure-menu-item"><a data-click="raw-pt-PT" href="pt/raw.html" target="_blank" class="pure-menu-link raw">pt-PT</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="leadIntro">
+        <h1>{{ site.long_title }}</h1>
+
+        {{ site.lead }}
+
+    </div>
+
+    <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="testGroup">
+                <h3>Test group 1</h3>
+                <p class="soft">Our pages</p>
+                <ol>
+                    <li><a href="es/blog.html">Blog</a></li>
+                    <li><a href="es/greenwire.html">Greenwire</a></li>
+                    <li><a href="es/magazine.html">Magazine</a></li>
+                    <li><a href="es/page.html">Page</a></li>
+                    <li><a href="es/petition.html">Petition</a></li>
+                </ol>
+                <p class="soft">Our pages, translations</p>
+                <ol>
+                    <li><a href="es/ca-page.html">Catalan</a>
+                    <li><a href="es/eu-page.html">Basque</a>
+                    <li><a href="es/gl-page.html">Galician</a>
+                </ol>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="testGroup">
+                <h3>Test group 2</h3>
+                <p class="soft">Other Greenpeace pages</p>
+                <ol>
+                    <li>Arabic: <a href="ara/news.html">news</a></li>
+                    <li>Austria: <a href="at/news.html">news</a></li>
+                    <li>China Mainland: <a href="cn/news.html">news</a></li>
+                    <li>France: <a href="fr/news.html">news</a></li>
+                    <li>Germany: <a href="de/press.html">press</a></li>
+                    <li>International: <a href="p4/story.html"><strong>Planet 4 story</strong></a></li>
+                    <li>Portugal: <a href="pt/news.html"> <strong>Planet 3 news</strong></a></li>
+                    <li>Rusia: <a href="ru/content.html">blog</a></li>
+                    <li>Switzerland: <a href="ch/news.html">news</a></li>
+                    <li>UK: <a href="uk/news.html">news</a>, <a href="uk/unearthed.html">Unearthed</a></li>
+                </ol>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+            <div class="testGroup">
+                <h3>Test group 3</h3>
+                <p class="soft">Pages in other sites</p>
+                <ol>
+                    <li><a href="wp/post-stargazer-gutenberg.html">Wordpress post (Stargazer + Gutenberg)</a></li>
+                    <li><a href="peoplevsoil/voices.html">People Vs Oil, Voices petition</a></li>
+                </ol>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="howToUse"><a data-click="readme" class="pure-button" href="https://github.com/{{ site.github_user }}/{{ site.github_repository }}/blob/master/README.md" target="_blank" title="Your project's README"><strong>How to use &rarr;</strong></a></div>
+
+    <div class="importantNotes">
+        <h3>Important notes:</h3>
+
+        <p>
+            This tool was created to work with the <strong><a data-click="vis-guide" href="https://greenpeace.github.io/gpes-visualisations/" target="_blank">guide to create visualisations for our sites</a></strong> <span class="soft">(English doc created by the Spanish office)</span>. Please read about the <a data-click="vis-guide-6-principles" href="https://greenpeace.github.io/gpes-visualisations/#core-principles" target="_blank">6 core principles</a> and <a data-click="vis-guide-sharing" href="https://greenpeace.github.io/gpes-visualisations/sharing.html" target="_blank">sharing with others</a>.
+        </p>
+    </div>
+
+    <script>
+        document.querySelectorAll(".raw").forEach(function(element){
+            element.setAttribute("title", "Page to easily get the vis. source code.");
+        });
+        document.querySelectorAll("a[data-click]").forEach(function(element){
+            element.addEventListener("click", function(element){
+                var dataClick = this.dataset.click;
+                if (typeof(gtag) == "function") {
+                    gtag("event", "click", { "event_category": "navigation", "event_label": dataClick });
+                }
+            });
+        });
+    </script>
+
+    <script src="assets/js/menus.js"></script>
+
+</body>
+</html>
