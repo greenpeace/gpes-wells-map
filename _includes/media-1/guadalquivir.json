@@ -1,0 +1,23 @@
+[
+    {
+      "Municipio" : "Aznalcázar (Sevilla)",
+      "NumSanciones" : 5,
+      "Danos" : 634838,
+      "lat" : 37.3045694,
+      "long" : -6.2547936
+    },
+    {
+      "Municipio" : "Almonte (Huelva)",
+      "NumSanciones" : 91,
+      "Danos" : 452681,
+      "lat" : 37.2598808,
+      "long" : -6.526847
+    },
+    {
+      "Municipio" : "Puebla de Don Fadrique (Granada)",
+      "NumSanciones" : 11,
+      "Danos" : 265953,
+      "lat" : 37.9580646,
+      "long" : -2.4399688
+    }
+]
