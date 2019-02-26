@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=es', {
             maxZoom: 9,
-            minZoom: 5,
+            minZoom: 6,
             attribution: '&copy; OpenStreetMap contributors, Wikimedia',
             id: 'mapbox.light'
         }).addTo(osmap);
