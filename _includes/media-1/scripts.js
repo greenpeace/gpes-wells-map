@@ -12,6 +12,10 @@ document.addEventListener("DOMContentLoaded", function (t) {
     document.getElementById("mapaAndalucia").style.height = mapheight + "px";
     
     
+    function easyNumbers(value) {
+        return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + ' €';
+    }
+
     function drawSancionesGuadalquivir() {
         osmap = L.map('mapaAndalucia', {
             scrollWheelZoom: false
@@ -56,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
                 stroke: false,
                 fillColor: '#ff9f00',
                 fillOpacity: 0.6
-            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.damage_value }}: " + node.Danos + "</p>");
+            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.damage_value }}: " + easyNumbers(node.Danos) + "</p>");
         });
     }
 
