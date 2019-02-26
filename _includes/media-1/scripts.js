@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
     
     document.getElementById("mapaAndalucia").style.height = mapheight + "px";
     
+    var bounds = new L.LatLngBounds(new L.LatLng(34.9919663, -10), new L.LatLng(40.5532684, 1));
+
     
     function easyNumbers(value) {
         return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + ' €';
@@ -20,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
     function drawSancionesGuadalquivir() {
         osmap = L.map('mapaAndalucia', {
-            scrollWheelZoom: false
+            scrollWheelZoom: false,
+            maxBounds: bounds
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
@@ -45,13 +48,14 @@ document.addEventListener("DOMContentLoaded", function (t) {
     
     function drawValorGuadalquivir() {
         osmap = L.map('mapaAndalucia', {
-            scrollWheelZoom: false
+            scrollWheelZoom: false,
+            maxBounds: bounds
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
 
-        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
             maxZoom: maxZoomLevel,
             minZoom: minZoomLevel,
-            attribution: '&copy; OpenStreetMap contributors, Wikimedia',
+            attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
             id: 'mapbox.light'
         }).addTo(osmap);
 
