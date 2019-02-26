@@ -12,12 +12,12 @@
         id: 'mapbox.light'
     }).addTo(osmap);
      
-	L.circle([37.2141193, -4.3873866], 50000, {
+	L.circle([37.2141193, -4.3873866], 15000, {
 		// color: '#f00',
         stroke: false,
 		fillColor: '#008',
 		fillOpacity: 0.7
-	}).addTo(osmap).bindPopup("<h4>Mensage en el popup</p><h4>Bar</p>");
+	}).addTo(osmap).bindPopup("<h4>Mensage en el popup</h4><p>Cantidad: Valor</p>");
 
     /* END SCRIPTS */
 });
