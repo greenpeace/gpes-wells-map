@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
             L.circle([node.lat, node.long], (node.NumSanciones * 100 ) + 5000, {
                 // color: '#f00',
                 stroke: false,
-                fillColor: '#e80505',
+                fillColor: '#ff9f00',
                 fillOpacity: 0.6
             }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.num_sanctions }}: " + node.NumSanciones + "</p>");
         });
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
             L.circle([node.lat, node.long], (node.Danos / 40) + 100, {
                 // color: '#f00',
                 stroke: false,
-                fillColor: '#ff9f00',
+                fillColor: '#e80505',
                 fillOpacity: 0.6
             }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.damage_value }}: " + easyNumbers(node.Danos) + "</p>");
         });
