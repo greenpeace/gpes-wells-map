@@ -1,15 +1,9 @@
 language: "es-ES"
+lang: "es"
 
-media-2:
-    title: "Comparar evolución de dos datos en el tiempo"
-    dataset1: "ingresos"
-    dataset2: "gastos"
-    yaxe: "Miles de euros"
-    xaxe: "Meses"
-    months:
-        january: "enero"
-        february: "febrero"
-        march: "marzo"
-        april: "abril"
-        may: "mayo"
-        june: "junio"
+media-1:
+    num_sanctions: "Número de sanciones"
+    damage_value: "Valor de los daños"
+
+
+

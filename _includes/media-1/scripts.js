@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
             scrollWheelZoom: false
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
 
-        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=es', {
+        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
             maxZoom: 9,
             minZoom: 6,
             attribution: '&copy; OpenStreetMap contributors, Wikimedia',
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
                 stroke: false,
                 fillColor: '#e80505',
                 fillOpacity: 0.6
-            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>Número de sanciones: " + node.NumSanciones + "</p>");        
+            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.num_sanctions }}: " + node.NumSanciones + "</p>");
         });
     }
     
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
             scrollWheelZoom: false
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
 
-        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang=es', {
+        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
             maxZoom: 9,
             minZoom: 5,
             attribution: '&copy; OpenStreetMap contributors, Wikimedia',
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
                 stroke: false,
                 fillColor: '#ff9f00',
                 fillOpacity: 0.6
-            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>Valor de los daños: " + node.Danos + "</p>");        
+            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.damage_value }}: " + node.Danos + "</p>");
         });
     }
 
@@ -65,13 +65,13 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var valorDanos = document.getElementById("valorDanos");
     var TituloGraficoAndalucia = document.getElementById("tituloGraficoAndalucia");
     numSanciones.addEventListener("click", function(){
-        TituloGraficoAndalucia.textContent = "Número de sanciones";
+        TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.num_sanctions }}";
         osmap.off();
         osmap.remove();
         drawSancionesGuadalquivir();
     });
     valorDanos.addEventListener("click", function(){
-        TituloGraficoAndalucia.textContent = "Valor de los daños";
+        TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.damage_value }}";
         osmap.off();
         osmap.remove();
         drawValorGuadalquivir();

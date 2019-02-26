@@ -2,6 +2,11 @@
 
 #mapaAndalucia h4 {
     font-size: 15px !important;
+    padding-left: 0;
+}
+
+#mapaAndalucia p {
+    padding-left: 0;
 }
 
 /* END STYLES */
