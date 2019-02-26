@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var containerEl = document.getElementById("mapaAndalucia");
     var elwidth = containerEl.offsetWidth;
     var defaultZoomLevel = elwidth >= 550 ? 6.5 : 6.3;
+    var maxZoomLevel = 9;
+    var minZoomLevel = 6;
     
     var mapheight = elwidth >= 550 ? 400 : 300;
     
@@ -22,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
-            maxZoom: 9,
-            minZoom: 6,
+            maxZoom: maxZoomLevel,
+            minZoom: minZoomLevel,
             attribution: '&copy; OpenStreetMap contributors, Wikimedia',
             id: 'mapbox.light'
         }).addTo(osmap);
@@ -47,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
-            maxZoom: 9,
-            minZoom: 5,
+            maxZoom: maxZoomLevel,
+            minZoom: minZoomLevel,
             attribution: '&copy; OpenStreetMap contributors, Wikimedia',
             id: 'mapbox.light'
         }).addTo(osmap);
