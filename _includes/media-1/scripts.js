@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
     document.getElementById("mapaAndalucia").style.height = mapheight + "px";
     
     
-    function drawSanciones() {
+    function drawSancionesGuadalquivir() {
         osmap = L.map('mapaAndalucia', {
             scrollWheelZoom: false
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function (t) {
         });
     }
     
-   drawSanciones();
+   drawSancionesGuadalquivir();
     
-    function drawValor() {
+    function drawValorGuadalquivir() {
         osmap = L.map('mapaAndalucia', {
             scrollWheelZoom: false
         }).setView([37.2141193, -4.3873866], defaultZoomLevel);
@@ -63,18 +63,18 @@ document.addEventListener("DOMContentLoaded", function (t) {
      
     var numSanciones = document.getElementById("numSanciones");
     var valorDanos = document.getElementById("valorDanos");
-    var TituloGrafico = document.getElementById("tituloGrafico");
+    var TituloGraficoAndalucia = document.getElementById("tituloGraficoAndalucia");
     numSanciones.addEventListener("click", function(){
-        TituloGrafico.textContent = "Número de sanciones";
+        TituloGraficoAndalucia.textContent = "Número de sanciones";
         osmap.off();
         osmap.remove();
-        drawSanciones();
+        drawSancionesGuadalquivir();
     });
     valorDanos.addEventListener("click", function(){
-        TituloGrafico.textContent = "Valor de los daños";
+        TituloGraficoAndalucia.textContent = "Valor de los daños";
         osmap.off();
         osmap.remove();
-        drawValor();
+        drawValorGuadalquivir();
     }); 
 
 
