@@ -9,6 +9,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var maxZoomLevel = 9;
     var minZoomLevel = 6;
     
+    var minCircle = 3000;
+
     var mapheight = elwidth >= 550 ? 400 : 300;
     
     document.getElementById("mapaAndalucia").style.height = mapheight + "px";
@@ -35,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
 
         guadalquivir.forEach(function(node){
-            L.circle([node.lat, node.long], (node.NumSanciones * 100 ) + 5000, {
+            L.circle([node.lat, node.long], (node.NumSanciones * 200 ) + minCircle, {
                 // color: '#f00',
                 stroke: false,
                 fillColor: '#ff9f00',
@@ -61,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
 
         guadalquivir.forEach(function(node){
-            L.circle([node.lat, node.long], (node.Danos / 40) + 100, {
+            L.circle([node.lat, node.long], (node.Danos / 30) + minCircle, {
                 // color: '#f00',
                 stroke: false,
                 fillColor: '#e80505',
