@@ -17,14 +17,27 @@ document.addEventListener("DOMContentLoaded", function (t) {
     
     var bounds = new L.LatLngBounds(new L.LatLng(34.9919663, -10), new L.LatLng(40.5532684, 1));
 
+    /**
+     * Obtain the radius from the area
+     * @param   {number} area Area of the circle
+     * @returns {number} Radius of the circle
+     */
     function getRadius(area) {
         return Math.sqrt(area / Math.PI );
     }
     
-    function easyNumbers(value) {
+    /**
+     * Make the numbers easy to read and add euro
+     * @param   {number} value Number of Euro
+     * @returns {string} String to display
+     */
+    function easyNumbersEuro(value) {
         return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + ' €';
     }
 
+    /**
+     * Draws the number of sancions map
+     */
     function drawSancionesGuadalquivir() {
         osmap = L.map('mapaAndalucia', {
             scrollWheelZoom: false,
@@ -51,6 +64,9 @@ document.addEventListener("DOMContentLoaded", function (t) {
     
    drawSancionesGuadalquivir();
     
+    /**
+     * Draws the amount map
+     */
     function drawValorGuadalquivir() {
         osmap = L.map('mapaAndalucia', {
             scrollWheelZoom: false,
@@ -71,11 +87,13 @@ document.addEventListener("DOMContentLoaded", function (t) {
                 stroke: false,
                 fillColor: '#e80505',
                 fillOpacity: 0.6
-            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.damage_value }}: " + easyNumbers(node.Danos) + "</p>");
+            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.damage_value }}: " + easyNumbersEuro(node.Danos) + "</p>");
         });
     }
 
-     
+    /**
+     * Manages the click in the buttons
+     */
     var numSanciones = document.getElementById("numSanciones");
     var valorDanos = document.getElementById("valorDanos");
     var TituloGraficoAndalucia = document.getElementById("tituloGraficoAndalucia");
