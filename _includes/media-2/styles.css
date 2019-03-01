@@ -26,11 +26,13 @@
 #numSancionesTajo, #valorDanosTajo {
     background-color: #2ab20b;
     font: 700 14px Rubik,sans-serif;
-    color: #fff;
+    color: #fff !important;
     padding: 6px 8px;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
+    box-shadow: none;
+    margin-bottom: 5px;
 }
 
 /* END STYLES */
