@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
      * @param   {number} area Area of the circle
      * @returns {number} Radius of the circle
      */
-    function getRadius(area) {
+    var getRadius = function (area) {
         return Math.sqrt(area / Math.PI );
     }
     
@@ -31,14 +31,14 @@ document.addEventListener("DOMContentLoaded", function (t) {
      * @param   {number} value Number of Euro
      * @returns {string} String to display
      */
-    function easyNumbersEuro(value) {
+    var easyNumbersEuro = function (value) {
         return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + ' €';
     }
 
     /**
      * Draws the number of sancions map
      */
-    function drawSancionesGuadalquivir() {
+    var drawSancionesGuadalquivir = function () {
         osmap = L.map('mapaAndalucia', {
             scrollWheelZoom: false,
             maxBounds: bounds
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
     /**
      * Draws the amount map
      */
-    function drawValorGuadalquivir() {
+    var drawValorGuadalquivir = function () {
         osmap = L.map('mapaAndalucia', {
             scrollWheelZoom: false,
             maxBounds: bounds
