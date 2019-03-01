@@ -1,20 +1,21 @@
-
 document.addEventListener("DOMContentLoaded", function (t) {
-    /* BEGIN SCRIPTS */
-    var osmap; 
     
+    /* BEGIN SCRIPTS */
+    
+    var osmap;
+
     var containerEl = document.getElementById("mapaAndalucia");
     var elwidth = containerEl.offsetWidth;
     var defaultZoomLevel = elwidth >= 550 ? 6.5 : 6.3;
     var maxZoomLevel = 9;
     var minZoomLevel = 6;
-    
+
     var minCircle = 2500;
 
     var mapheight = elwidth >= 550 ? 400 : 300;
-    
+
     document.getElementById("mapaAndalucia").style.height = mapheight + "px";
-    
+
     var bounds = new L.LatLngBounds(new L.LatLng(34.9919663, -10), new L.LatLng(40.5532684, 1));
 
     /**
@@ -23,9 +24,9 @@ document.addEventListener("DOMContentLoaded", function (t) {
      * @returns {number} Radius of the circle
      */
     var getRadius = function (area) {
-        return Math.sqrt(area / Math.PI );
+        return Math.sqrt(area / Math.PI);
     }
-    
+
     /**
      * Make the numbers easy to read and add euro
      * @param   {number} value Number of Euro
@@ -52,8 +53,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).addTo(osmap);
 
 
-        guadalquivir_sanciones.forEach(function(node){
-                L.circle([node.lat, node.long], ( getRadius(node.NumSanciones) * 2000 ) + minCircle, {
+        guadalquivir_sanciones.forEach(function (node) {
+            L.circle([node.lat, node.long], (getRadius(node.NumSanciones) * 2000) + minCircle, {
                 // color: '#f00',
                 stroke: false,
                 fillColor: '#ff9f00',
@@ -61,9 +62,9 @@ document.addEventListener("DOMContentLoaded", function (t) {
             }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.num_sanctions }}: " + node.NumSanciones + "</p>");
         });
     }
-    
-   drawSancionesGuadalquivir();
-    
+
+    drawSancionesGuadalquivir();
+
     /**
      * Draws the amount map
      */
@@ -81,8 +82,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).addTo(osmap);
 
 
-        guadalquivir_danos.forEach(function(node){
-            L.circle([node.lat, node.long], ( getRadius(node.Danos)  * 30 ) + minCircle, {
+        guadalquivir_danos.forEach(function (node) {
+            L.circle([node.lat, node.long], (getRadius(node.Danos) * 30) + minCircle, {
                 // color: '#f00',
                 stroke: false,
                 fillColor: '#e80505',
@@ -97,19 +98,20 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var numSanciones = document.getElementById("numSanciones");
     var valorDanos = document.getElementById("valorDanos");
     var TituloGraficoAndalucia = document.getElementById("tituloGraficoAndalucia");
-    numSanciones.addEventListener("click", function(){
+    numSanciones.addEventListener("click", function () {
         TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.num_sanctions }}";
         osmap.off();
         osmap.remove();
         drawSancionesGuadalquivir();
     });
-    valorDanos.addEventListener("click", function(){
+    valorDanos.addEventListener("click", function () {
         TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.damage_value }}";
         osmap.off();
         osmap.remove();
         drawValorGuadalquivir();
-    }); 
+    });
 
 
     /* END SCRIPTS */
+    
 });
