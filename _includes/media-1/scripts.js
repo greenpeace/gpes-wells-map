@@ -95,8 +95,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
     /**
      * Manages the click in the buttons
      */
-    var numSanciones = document.getElementById("numSanciones");
-    var valorDanos = document.getElementById("valorDanos");
+    var numSanciones = document.getElementById("numSancionesAndalucia");
+    var valorDanos = document.getElementById("valorDanosAndalucia");
     var TituloGraficoAndalucia = document.getElementById("tituloGraficoAndalucia");
     numSanciones.addEventListener("click", function () {
         TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.num_sanctions }}";

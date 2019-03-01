@@ -18,4 +18,19 @@
 #notaSobreEscala small {
     font-size: 11px;
 }
+
+#tituloGraficoTajo {
+    font-size: 23px !important;
+}
+
+#numSancionesTajo, #valorDanosTajo {
+    background-color: #2ab20b;
+    font: 700 14px Rubik,sans-serif;
+    color: #fff;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
 /* END STYLES */

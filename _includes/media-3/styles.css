@@ -18,4 +18,19 @@
 #notaSobreEscala small {
     font-size: 11px;
 }
+
+#tituloGraficoJucar {
+    font-size: 23px !important;
+}
+
+#numSancionesJucar, #valorDanosJucar {
+    background-color: #2ab20b;
+    font: 700 14px Rubik,sans-serif;
+    color: #fff;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
 /* END STYLES */
