@@ -4,6 +4,6 @@ lang: "en"
 media-1:
     num_sanctions: "Number of sanctions"
     damage_value: "Damage value"
-
+    footnote: "Note: Click the circles for more information. To ensure all points are visible we've added a base value."
 
 
