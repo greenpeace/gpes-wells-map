@@ -9,4 +9,11 @@
     padding-left: 0;
 }
 
+#notaSobreEscala {
+    margin-bottom: 1em;
+}
+
+#notaSobreEscala small {
+    font-size: 11px;
+}
 /* END STYLES */
