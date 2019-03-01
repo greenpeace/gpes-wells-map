@@ -1,0 +1,21 @@
+/* BEGIN STYLES */
+
+#mapaJucar h4 {
+    font-size: 15px !important;
+    padding-left: 0;
+}
+
+#mapaJucar p {
+    padding-left: 0;
+}
+
+#notaSobreEscala {
+    margin-bottom: 1em;
+    line-height: 13px;
+    margin-top: 0.2em;
+}
+
+#notaSobreEscala small {
+    font-size: 11px;
+}
+/* END STYLES */
