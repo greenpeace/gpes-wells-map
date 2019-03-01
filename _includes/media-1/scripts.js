@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).addTo(osmap);
 
 
-        guadalquivir.forEach(function(node){
+        guadalquivir_sanciones.forEach(function(node){
                 L.circle([node.lat, node.long], ( getRadius(node.NumSanciones) * 2000 ) + minCircle, {
                 // color: '#f00',
                 stroke: false,
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).addTo(osmap);
 
 
-        guadalquivir.forEach(function(node){
+        guadalquivir_danos.forEach(function(node){
             L.circle([node.lat, node.long], ( getRadius(node.Danos)  * 30 ) + minCircle, {
                 // color: '#f00',
                 stroke: false,
