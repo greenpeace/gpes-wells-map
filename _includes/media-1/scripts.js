@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var maxZoomLevel = 9;
     var minZoomLevel = 6;
     
-    var minCircle = 3000;
+    var minCircle = 2500;
 
     var mapheight = elwidth >= 550 ? 400 : 300;
     
@@ -17,6 +17,9 @@ document.addEventListener("DOMContentLoaded", function (t) {
     
     var bounds = new L.LatLngBounds(new L.LatLng(34.9919663, -10), new L.LatLng(40.5532684, 1));
 
+    function getRadius(area) {
+        return Math.sqrt(area / Math.PI );
+    }
     
     function easyNumbers(value) {
         return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + ' €';
@@ -37,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
 
         guadalquivir.forEach(function(node){
-            L.circle([node.lat, node.long], (node.NumSanciones * 200 ) + minCircle, {
+                L.circle([node.lat, node.long], ( getRadius(node.NumSanciones) * 2000 ) + minCircle, {
                 // color: '#f00',
                 stroke: false,
                 fillColor: '#ff9f00',
@@ -63,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
 
         guadalquivir.forEach(function(node){
-            L.circle([node.lat, node.long], (node.Danos / 30) + minCircle, {
+            L.circle([node.lat, node.long], ( getRadius(node.Danos)  * 30 ) + minCircle, {
                 // color: '#f00',
                 stroke: false,
                 fillColor: '#e80505',
