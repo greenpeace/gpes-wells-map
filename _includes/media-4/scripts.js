@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
     /**
      * Draws the number of sancions map
      */
-    var drawSancionesJucar = function () {
+    var drawSancionesAndalucia2 = function () {
         osmap = L.map('mapaAndalucia2', {
             scrollWheelZoom: false,
             maxBounds: bounds
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).addTo(osmap);
 
 
-        jucar_sanciones.forEach(function (node) {
+        guadalquivir_sanciones2.forEach(function (node) {
             L.circle([node.lat, node.long], (getRadius(node.NumSanciones) * 2000) + minCircle, {
                 // color: '#f00',
                 stroke: false,
@@ -63,12 +63,12 @@ document.addEventListener("DOMContentLoaded", function (t) {
         });
     }
 
-    drawSancionesJucar();
+    drawSancionesAndalucia2();
 
     /**
      * Draws the amount map
      */
-    var drawValorJucar = function () {
+    var drawValorAndalucia2 = function () {
         osmap = L.map('mapaAndalucia2', {
             scrollWheelZoom: false,
             maxBounds: bounds
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
         }).addTo(osmap);
 
 
-        jucar_danos.forEach(function (node) {
+        guadalquivir_danos2.forEach(function (node) {
             L.circle([node.lat, node.long], (getRadius(node.Danos) * 30) + minCircle, {
                 // color: '#f00',
                 stroke: false,
@@ -102,13 +102,13 @@ document.addEventListener("DOMContentLoaded", function (t) {
         TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.num_sanctions }}";
         osmap.off();
         osmap.remove();
-        drawSancionesJucar();
+        drawSancionesAndalucia2();
     });
     valorDanos.addEventListener("click", function () {
         TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.damage_value }}";
         osmap.off();
         osmap.remove();
-        drawValorJucar();
+        drawValorAndalucia2();
     });
 
 

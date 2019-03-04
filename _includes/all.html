@@ -7,6 +7,8 @@
 <hr />
 <p>&nbsp;</p>
 
+<h2>Guadalquivir</h2>
+
 <!-- ************************* BEGIN GUADALQUIVIR ************************* -->
 
 <style>
@@ -30,6 +32,8 @@ var guadalquivir_danos = {% include media-1/guadalquivir-danos.json %};
 <p>&nbsp;</p>
 <hr />
 <p>&nbsp;</p>
+
+<h2>Tajo</h2>
 
 <!-- ************************* BEGIN TAJO ************************* -->
 
@@ -55,6 +59,8 @@ var tajo_danos = {% include media-2/tajo-danos.json %};
 <hr />
 <p>&nbsp;</p>
 
+<h2>Jucar</h2>
+
 <!-- ************************* BEGIN JUCAR ************************* -->
 
 <style>
@@ -79,16 +85,18 @@ var jucar_danos = {% include media-3/jucar-danos.json %};
 <hr />
 <p>&nbsp;</p>
 
+<h2>Guadalquivir</h2>
+
 <!-- ************************* BEGIN ANDALUCIA 2 ************************* -->
 
 <style>
 {% include media-4/styles.css %}
 </style>
 <script>
-var jucar_sanciones = {% include media-4/guadalquivir-numsanciones-extraccion.json %};
+var guadalquivir_sanciones2 = {% include media-4/guadalquivir-numsanciones-extraccion.json %};
 </script>
 <script>
-var jucar_danos = {% include media-4/guadalquivir-danos-extraccion.json %};
+var guadalquivir_danos2 = {% include media-4/guadalquivir-danos-extraccion.json %};
 </script>
 {% include media-4/structured_content.html %}
 <script>
@@ -96,6 +104,32 @@ var jucar_danos = {% include media-4/guadalquivir-danos-extraccion.json %};
 </script>
 
 <!-- ************************* END ANDALUCIA2 ************************* -->
+
+
+<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>
+
+<h2>Tajo</h2>
+
+<!-- ************************* BEGIN TAJO 2 ************************* -->
+
+<style>
+{% include media-5/styles.css %}
+</style>
+<script>
+var tajo_sanciones2 = {% include media-5/tajo-numsanciones-extraccion.json %};
+</script>
+<script>
+var tajo_danos2 = {% include media-5/tajo-danos-extraccion.json %};
+</script>
+{% include media-5/structured_content.html %}
+<script>
+{% include media-5/scripts.js %}
+</script>
+
+<!-- ************************* END TAJO 2 ************************* -->
+
 
 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
