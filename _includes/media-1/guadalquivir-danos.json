@@ -210,7 +210,7 @@
       "long" : -5.642328
     },
     {
-      "Municipio" : "Puebla de Cazalla, La (Sevilla)",
+      "Municipio" : "La Puebla de Cazalla (Sevilla)",
       "Danos" : 5774,
       "lat" : 37.22441,
       "long" : -5.31227
@@ -234,7 +234,7 @@
       "long" : -2.722401
     },
     {
-      "Municipio" : "Carlota, La (Córdoba)",
+      "Municipio" : "La Carlota (Córdoba)",
       "Danos" : 4969,
       "lat" : 37.67361,
       "long" : -4.932553
@@ -282,13 +282,13 @@
       "long" : -3.286108
     },
     {
-      "Municipio" : "Iruela, La (Jaén)",
+      "Municipio" : "La Iruela (Jaén)",
       "Danos" : 3076,
       "lat" : 37.92038,
       "long" : -2.993985
     },
     {
-      "Municipio" : "Granjuela, La (Córdoba)",
+      "Municipio" : "La Granjuela (Córdoba)",
       "Danos" : 2618,
       "lat" : 38.3711,
       "long" : -5.351436
@@ -342,7 +342,7 @@
       "long" : -3.965147
     },
     {
-      "Municipio" : "Victoria, La (Córdoba)",
+      "Municipio" : "La Victoria (Córdoba)",
       "Danos" : 1817,
       "lat" : 37.88327,
       "long" : -4.784959
@@ -354,7 +354,7 @@
       "long" : -5.570882
     },
     {
-      "Municipio" : "Rinconada, La (Sevilla)",
+      "Municipio" : "La Rinconada (Sevilla)",
       "Danos" : 1682,
       "lat" : 37.4878,
       "long" : -5.979309
@@ -372,7 +372,7 @@
       "long" : -3.919512
     },
     {
-      "Municipio" : "Pedroso, El (Sevilla)",
+      "Municipio" : "El Pedroso (Sevilla)",
       "Danos" : 1671,
       "lat" : 37.84222,
       "long" : -5.763515
@@ -438,7 +438,7 @@
       "long" : -4.086735
     },
     {
-      "Municipio" : "Luisiana, La (Sevilla)",
+      "Municipio" : "La Luisiana (Sevilla)",
       "Danos" : 1192,
       "lat" : 37.52613,
       "long" : -5.248721
@@ -456,7 +456,7 @@
       "long" : -4.326089
     },
     {
-      "Municipio" : "Rambla, La (Córdoba)",
+      "Municipio" : "La Rambla (Córdoba)",
       "Danos" : 1131,
       "lat" : 37.60816,
       "long" : -4.741319
@@ -468,19 +468,19 @@
       "long" : -5.844032
     },
     {
-      "Municipio" : "Saucejo, El (Sevilla)",
+      "Municipio" : "El Saucejo (Sevilla)",
       "Danos" : 1071,
       "lat" : 37.07005,
       "long" : -5.096187
     },
     {
-      "Municipio" : "Real de la Jara, El (Sevilla)",
+      "Municipio" : "El Real de la Jara (Sevilla)",
       "Danos" : 1071,
       "lat" : 37.95061,
       "long" : -6.1559
     },
     {
-      "Municipio" : "Puebla de los Infantes, La (Sevilla)",
+      "Municipio" : "La Puebla de los Infantes (Sevilla)",
       "Danos" : 1062,
       "lat" : 37.77852,
       "long" : -5.388995
@@ -540,7 +540,7 @@
       "long" : -4.896754
     },
     {
-      "Municipio" : "Cabezas de San Juan, Las (Sevilla)",
+      "Municipio" : "Las Cabezas de San Juan (Sevilla)",
       "Danos" : 641,
       "lat" : 36.98133,
       "long" : -5.940864
@@ -618,7 +618,7 @@
       "long" : -6.123577
     },
     {
-      "Municipio" : "Roda de Andalucía, La (Sevilla)",
+      "Municipio" : "La Roda de Andalucía (Sevilla)",
       "Danos" : 385,
       "lat" : 37.20099,
       "long" : -4.779276
@@ -726,7 +726,7 @@
       "long" : -6.214543
     },
     {
-      "Municipio" : "Villares, Los (Jaén)",
+      "Municipio" : "Los Villares (Jaén)",
       "Danos" : 158,
       "lat" : 37.68932,
       "long" : -3.81857
@@ -756,7 +756,7 @@
       "long" : -4.425931
     },
     {
-      "Municipio" : "Cuervo de Sevilla, El (Sevilla)",
+      "Municipio" : "El Cuervo de Sevilla (Sevilla)",
       "Danos" : 132,
       "lat" : 36.85136,
       "long" : -6.041625
