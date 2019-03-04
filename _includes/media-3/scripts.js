@@ -42,8 +42,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var drawSancionesJucar = function () {
         osmap = L.map('mapaJucar', {
             scrollWheelZoom: false,
-            maxBounds: bounds
-        }).setView([37.2141193, -4.3873866], defaultZoomLevel);
+            // maxBounds: bounds
+        }).setView([39.5268021, -1.9743865], defaultZoomLevel);
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
             maxZoom: maxZoomLevel,
@@ -71,8 +71,8 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var drawValorJucar = function () {
         osmap = L.map('mapaJucar', {
             scrollWheelZoom: false,
-            maxBounds: bounds
-        }).setView([37.2141193, -4.3873866], defaultZoomLevel);
+            // maxBounds: bounds
+        }).setView([39.5268021, -1.9743865], defaultZoomLevel);
 
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
             maxZoom: maxZoomLevel,

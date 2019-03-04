@@ -1,829 +1,385 @@
 [
     {
-      "Municipio" : "Almonte (Huelva)",
-      "NumSanciones" : 91,
-      "lat" : 37.26254,
-      "long" : -6.51724
+      "Municipio" : "Albacete",
+      "NumSanciones" : 22,
+      "lat" : 38.99765,
+      "long" : -1.86007
     },
     {
-      "Municipio" : "Carmona (Sevilla)",
-      "NumSanciones" : 49,
-      "lat" : 37.47102,
-      "long" : -5.642328
-    },
-    {
-      "Municipio" : "Lucena del Puerto (Huelva)",
-      "NumSanciones" : 49,
-      "lat" : 37.30394,
-      "long" : -6.730086
-    },
-    {
-      "Municipio" : "Adamuz (Córdoba)",
-      "NumSanciones" : 27,
-      "lat" : 38.02736,
-      "long" : -4.524873
-    },
-    {
-      "Municipio" : "Lora del Río (Sevilla)",
-      "NumSanciones" : 25,
-      "lat" : 37.65923,
-      "long" : -5.526284
-    },
-    {
-      "Municipio" : "Écija (Sevilla)",
-      "NumSanciones" : 24,
-      "lat" : 37.54093,
-      "long" : -5.079953
-    },
-    {
-      "Municipio" : "Bonares (Huelva)",
-      "NumSanciones" : 24,
-      "lat" : 37.3219,
-      "long" : -6.680697
-    },
-    {
-      "Municipio" : "Córdoba (Córdoba)",
-      "NumSanciones" : 21,
-      "lat" : 37.88473,
-      "long" : -4.779152
-    },
-    {
-      "Municipio" : "Alcaudete (Jaén)",
-      "NumSanciones" : 16,
-      "lat" : 37.59106,
-      "long" : -4.086735
-    },
-    {
-      "Municipio" : "Marchena (Sevilla)",
-      "NumSanciones" : 15,
-      "lat" : 37.32972,
-      "long" : -5.416465
-    },
-    {
-      "Municipio" : "Hornachuelos (Córdoba)",
-      "NumSanciones" : 15,
-      "lat" : 37.83084,
-      "long" : -5.242984
-    },
-    {
-      "Municipio" : "Montoro (Córdoba)",
-      "NumSanciones" : 14,
-      "lat" : 38.02617,
-      "long" : -4.381874
-    },
-    {
-      "Municipio" : "Alhama de Granada (Granada)",
-      "NumSanciones" : 13,
-      "lat" : 37.00252,
-      "long" : -3.988389
-    },
-    {
-      "Municipio" : "Linares (Jaén)",
-      "NumSanciones" : 12,
-      "lat" : 38.09362,
-      "long" : -3.635844
-    },
-    {
-      "Municipio" : "Puebla de Don Fadrique (Granada)",
-      "NumSanciones" : 11,
-      "lat" : 37.9579,
-      "long" : -2.43508
-    },
-    {
-      "Municipio" : "Arahal (Sevilla)",
-      "NumSanciones" : 11,
-      "lat" : 37.2641,
-      "long" : -5.542829
-    },
-    {
-      "Municipio" : "Fuente Palmera (Córdoba)",
-      "NumSanciones" : 11,
-      "lat" : 37.70319,
-      "long" : -5.103904
-    },
-    {
-      "Municipio" : "Montilla (Córdoba)",
-      "NumSanciones" : 11,
-      "lat" : 37.58963,
-      "long" : -4.638313
-    },
-    {
-      "Municipio" : "Sanlúcar la Mayor (Sevilla)",
-      "NumSanciones" : 11,
-      "lat" : 37.38578,
-      "long" : -6.201977
-    },
-    {
-      "Municipio" : "Huelma (Jaén)",
+      "Municipio" : "La Roda",
       "NumSanciones" : 10,
-      "lat" : 37.64524,
-      "long" : -3.455428
+      "lat" : 39.206336,
+      "long" : -2.168402
     },
     {
-      "Municipio" : "Cabra del Santo Cristo (Jaén)",
-      "NumSanciones" : 10,
-      "lat" : 37.70535,
-      "long" : -3.286108
-    },
-    {
-      "Municipio" : "Palma del Río (Córdoba)",
-      "NumSanciones" : 10,
-      "lat" : 37.70163,
-      "long" : -5.283767
-    },
-    {
-      "Municipio" : "Azuaga (Badajoz)",
-      "NumSanciones" : 10,
-      "lat" : 38.25962,
-      "long" : -5.677916
-    },
-    {
-      "Municipio" : "Rambla, La (Córdoba)",
-      "NumSanciones" : 10,
-      "lat" : 37.60816,
-      "long" : -4.741319
-    },
-    {
-      "Municipio" : "Montefrío (Granada)",
-      "NumSanciones" : 10,
-      "lat" : 37.32097,
-      "long" : -4.011364
-    },
-    {
-      "Municipio" : "Almodóvar del Río (Córdoba)",
-      "NumSanciones" : 9,
-      "lat" : 37.80959,
-      "long" : -5.019958
-    },
-    {
-      "Municipio" : "Morón de la Frontera (Sevilla)",
-      "NumSanciones" : 9,
-      "lat" : 37.1223,
-      "long" : -5.451869
-    },
-    {
-      "Municipio" : "Villanueva del Río y Minas (Sevilla)",
-      "NumSanciones" : 9,
-      "lat" : 37.6601,
-      "long" : -5.714389
-    },
-    {
-      "Municipio" : "Mairena del Alcor (Sevilla)",
-      "NumSanciones" : 9,
-      "lat" : 37.37316,
-      "long" : -5.747595
-    },
-    {
-      "Municipio" : "Dos Hermanas (Sevilla)",
-      "NumSanciones" : 9,
-      "lat" : 37.28318,
-      "long" : -5.922242
-    },
-    {
-      "Municipio" : "Rociana del Condado (Huelva)",
-      "NumSanciones" : 9,
-      "lat" : 37.30781,
-      "long" : -6.598672
-    },
-    {
-      "Municipio" : "Carlota, La (Córdoba)",
-      "NumSanciones" : 9,
-      "lat" : 37.67361,
-      "long" : -4.932553
-    },
-    {
-      "Municipio" : "Alcalá de Guadaíra (Sevilla)",
-      "NumSanciones" : 9,
-      "lat" : 37.33833,
-      "long" : -5.844032
-    },
-    {
-      "Municipio" : "Illora (Granada)",
-      "NumSanciones" : 9,
-      "lat" : 37.28843,
-      "long" : -3.879782
-    },
-    {
-      "Municipio" : "Roda de Andalucía, La (Sevilla)",
-      "NumSanciones" : 9,
-      "lat" : 37.20099,
-      "long" : -4.779276
-    },
-    {
-      "Municipio" : "Bollullos de la Mitación (Sevilla)",
-      "NumSanciones" : 8,
-      "lat" : 37.34011,
-      "long" : -6.138757
-    },
-    {
-      "Municipio" : "Loja (Granada)",
-      "NumSanciones" : 8,
-      "lat" : 37.16884,
-      "long" : -4.151471
-    },
-    {
-      "Municipio" : "Úbeda (Jaén)",
-      "NumSanciones" : 8,
-      "lat" : 38.00809,
-      "long" : -3.368519
-    },
-    {
-      "Municipio" : "Estepa (Sevilla)",
-      "NumSanciones" : 7,
-      "lat" : 37.29147,
-      "long" : -4.878506
-    },
-    {
-      "Municipio" : "Sierra de Yeguas (Málaga)",
-      "NumSanciones" : 7,
-      "lat" : 37.12461,
-      "long" : -4.868739
-    },
-    {
-      "Municipio" : "Puente Genil (Córdoba)",
-      "NumSanciones" : 7,
-      "lat" : 37.39051,
-      "long" : -4.770465
-    },
-    {
-      "Municipio" : "Alameda (Málaga)",
-      "NumSanciones" : 7,
-      "lat" : 37.20783,
-      "long" : -4.658073
-    },
-    {
-      "Municipio" : "Villacarrillo (Jaén)",
-      "NumSanciones" : 7,
-      "lat" : 38.11541,
-      "long" : -3.087194
-    },
-    {
-      "Municipio" : "Montemayor (Córdoba)",
-      "NumSanciones" : 7,
-      "lat" : 37.64862,
-      "long" : -4.698889
-    },
-    {
-      "Municipio" : "Utrera (Sevilla)",
+      "Municipio" : "Almansa",
       "NumSanciones" : 6,
-      "lat" : 37.18142,
-      "long" : -5.781507
+      "lat" : 38.86941,
+      "long" : -1.097517
     },
     {
-      "Municipio" : "Posadas (Córdoba)",
+      "Municipio" : "La Gineta",
       "NumSanciones" : 6,
-      "lat" : 37.80041,
-      "long" : -5.107038
+      "lat" : 39.116013,
+      "long" : -1.998111
     },
     {
-      "Municipio" : "Martos (Jaén)",
+      "Municipio" : "El Picazo",
       "NumSanciones" : 6,
-      "lat" : 37.72278,
-      "long" : -3.966259
+      "lat" : 39.446627,
+      "long" : -2.090326
     },
     {
-      "Municipio" : "Peñaflor (Sevilla)",
-      "NumSanciones" : 6,
-      "lat" : 37.70726,
-      "long" : -5.346412
-    },
-    {
-      "Municipio" : "Osuna (Sevilla)",
-      "NumSanciones" : 6,
-      "lat" : 37.23697,
-      "long" : -5.102748
-    },
-    {
-      "Municipio" : "Larva (Jaén)",
-      "NumSanciones" : 6,
-      "lat" : 37.75892,
-      "long" : -3.20015
-    },
-    {
-      "Municipio" : "Salteras (Sevilla)",
-      "NumSanciones" : 6,
-      "lat" : 37.41824,
-      "long" : -6.111633
-    },
-    {
-      "Municipio" : "Aznalcázar (Sevilla)",
+      "Municipio" : "Tarazona Mancha",
       "NumSanciones" : 5,
-      "lat" : 37.30518,
-      "long" : -6.248415
+      "lat" : 39.265026,
+      "long" : -1.913189
     },
     {
-      "Municipio" : "Martín de la Jara (Sevilla)",
-      "NumSanciones" : 5,
-      "lat" : 37.10655,
-      "long" : -4.962173
-    },
-    {
-      "Municipio" : "Ibros (Jaén)",
-      "NumSanciones" : 5,
-      "lat" : 38.02261,
-      "long" : -3.502375
-    },
-    {
-      "Municipio" : "Lebrija (Sevilla)",
-      "NumSanciones" : 5,
-      "lat" : 36.91951,
-      "long" : -6.078367
-    },
-    {
-      "Municipio" : "Baena (Córdoba)",
-      "NumSanciones" : 5,
-      "lat" : 37.61441,
-      "long" : -4.326089
-    },
-    {
-      "Municipio" : "Puebla de los Infantes, La (Sevilla)",
-      "NumSanciones" : 5,
-      "lat" : 37.77852,
-      "long" : -5.388995
-    },
-    {
-      "Municipio" : "Mairena del Aljarafe (Sevilla)",
-      "NumSanciones" : 5,
-      "lat" : 37.34449,
-      "long" : -6.065354
-    },
-    {
-      "Municipio" : "Gilena (Sevilla)",
+      "Municipio" : "Chinchilla",
       "NumSanciones" : 4,
-      "lat" : 37.25134,
-      "long" : -4.913494
+      "lat" : 38.91862,
+      "long" : -1.722758
     },
     {
-      "Municipio" : "Puebla de Cazalla, La (Sevilla)",
+      "Municipio" : "Alcala del Jucar",
       "NumSanciones" : 4,
-      "lat" : 37.22441,
-      "long" : -5.31227
+      "lat" : 39.2023,
+      "long" : -1.415796
     },
     {
-      "Municipio" : "Campana, La (Sevilla)",
+      "Municipio" : "Mahora",
       "NumSanciones" : 4,
-      "lat" : 37.56945,
-      "long" : -5.425768
+      "lat" : 39.21283,
+      "long" : -1.725332
     },
     {
-      "Municipio" : "Píñar (Granada)",
+      "Municipio" : "Iniesta",
       "NumSanciones" : 4,
-      "lat" : 37.44337,
-      "long" : -3.439418
+      "lat" : 39.44085,
+      "long" : -1.749385
     },
     {
-      "Municipio" : "Cantillana (Sevilla)",
-      "NumSanciones" : 4,
-      "lat" : 37.60867,
-      "long" : -5.825826
-    },
-    {
-      "Municipio" : "Alamedilla (Granada)",
-      "NumSanciones" : 4,
-      "lat" : 37.58174,
-      "long" : -3.244309
-    },
-    {
-      "Municipio" : "Castilblanco de los Arroyos (Sevilla)",
-      "NumSanciones" : 4,
-      "lat" : 37.67459,
-      "long" : -5.9893
-    },
-    {
-      "Municipio" : "Casariche (Sevilla)",
-      "NumSanciones" : 4,
-      "lat" : 37.29389,
-      "long" : -4.759532
-    },
-    {
-      "Municipio" : "Sevilla (Sevilla)",
-      "NumSanciones" : 4,
-      "lat" : 37.38264,
-      "long" : -5.996295
-    },
-    {
-      "Municipio" : "Chimeneas (Granada)",
-      "NumSanciones" : 4,
-      "lat" : 37.13137,
-      "long" : -3.823198
-    },
-    {
-      "Municipio" : "Cazorla (Jaén)",
-      "NumSanciones" : 4,
-      "lat" : 37.91055,
-      "long" : -3.002167
-    },
-    {
-      "Municipio" : "Jódar (Jaén)",
-      "NumSanciones" : 4,
-      "lat" : 37.84398,
-      "long" : -3.352545
-    },
-    {
-      "Municipio" : "Constantina (Sevilla)",
-      "NumSanciones" : 4,
-      "lat" : 37.87227,
-      "long" : -5.619115
-    },
-    {
-      "Municipio" : "Villanueva del Rey (Córdoba)",
-      "NumSanciones" : 4,
-      "lat" : 38.19965,
-      "long" : -5.151443
-    },
-    {
-      "Municipio" : "Fernán-Núñez (Córdoba)",
-      "NumSanciones" : 4,
-      "lat" : 37.67226,
-      "long" : -4.723994
-    },
-    {
-      "Municipio" : "Fuente Obejuna (Córdoba)",
-      "NumSanciones" : 4,
-      "lat" : 38.26675,
-      "long" : -5.419834
-    },
-    {
-      "Municipio" : "Cabra (Córdoba)",
-      "NumSanciones" : 4,
-      "lat" : 37.47437,
-      "long" : -4.425931
-    },
-    {
-      "Municipio" : "Pedro Abad (Córdoba)",
-      "NumSanciones" : 4,
-      "lat" : 37.96708,
-      "long" : -4.457226
-    },
-    {
-      "Municipio" : "Navas de San Juan (Jaén)",
+      "Municipio" : "La Herrera",
       "NumSanciones" : 3,
-      "lat" : 38.18464,
-      "long" : -3.315369
+      "lat" : 38.962549,
+      "long" : -2.126162
     },
     {
-      "Municipio" : "Antequera (Málaga)",
+      "Municipio" : "Villanueva Jara",
       "NumSanciones" : 3,
-      "lat" : 37.01938,
-      "long" : -4.562885
+      "lat" : 39.440973,
+      "long" : -1.952742
     },
     {
-      "Municipio" : "Caniles (Granada)",
+      "Municipio" : "Pozorrubielos",
       "NumSanciones" : 3,
-      "lat" : 37.43626,
-      "long" : -2.722401
+      "lat" : 39.44584,
+      "long" : -2.038611
     },
     {
-      "Municipio" : "Fuentes de Andalucía (Sevilla)",
+      "Municipio" : "Pedralba",
       "NumSanciones" : 3,
-      "lat" : 37.46221,
-      "long" : -5.348385
+      "lat" : 42.02699,
+      "long" : -6.696118
     },
     {
-      "Municipio" : "Rinconada, La (Sevilla)",
+      "Municipio" : "Zarra",
       "NumSanciones" : 3,
-      "lat" : 37.4878,
-      "long" : -5.979309
+      "lat" : 42.51579,
+      "long" : -2.882306
     },
     {
-      "Municipio" : "Torredonjimeno (Jaén)",
-      "NumSanciones" : 3,
-      "lat" : 37.76543,
-      "long" : -3.959263
-    },
-    {
-      "Municipio" : "Cacín (Granada)",
-      "NumSanciones" : 3,
-      "lat" : 37.05995,
-      "long" : -3.91689
-    },
-    {
-      "Municipio" : "Luisiana, La (Sevilla)",
-      "NumSanciones" : 3,
-      "lat" : 37.52613,
-      "long" : -5.248721
-    },
-    {
-      "Municipio" : "Cabra de Santo Cristo (Jaén)",
-      "NumSanciones" : 3,
-      "lat" : 37.6956420372881,
-      "long" : -3.2291144367
-    },
-    {
-      "Municipio" : "Ventas de Huelma (Granada)",
-      "NumSanciones" : 3,
-      "lat" : 37.06853,
-      "long" : -3.822133
-    },
-    {
-      "Municipio" : "Guadahortuna (Granada)",
-      "NumSanciones" : 3,
-      "lat" : 37.55655,
-      "long" : -3.400713
-    },
-    {
-      "Municipio" : "Espartinas (Sevilla)",
-      "NumSanciones" : 3,
-      "lat" : 37.37997,
-      "long" : -6.123577
-    },
-    {
-      "Municipio" : "Cazalla de la Sierra (Sevilla)",
-      "NumSanciones" : 3,
-      "lat" : 37.9296,
-      "long" : -5.760799
-    },
-    {
-      "Municipio" : "Peal de Becerro (Jaén)",
-      "NumSanciones" : 3,
-      "lat" : 37.91332,
-      "long" : -3.121655
-    },
-    {
-      "Municipio" : "Villamanrique de la Condesa (Sevilla)",
-      "NumSanciones" : 3,
-      "lat" : 37.2463,
-      "long" : -6.306533
-    },
-    {
-      "Municipio" : "Fonelas (Granada)",
-      "NumSanciones" : 3,
-      "lat" : 37.41344,
-      "long" : -3.173344
-    },
-    {
-      "Municipio" : "Huéscar (Granada)",
+      "Municipio" : "Mora de Rubielos",
       "NumSanciones" : 2,
-      "lat" : 37.80949,
-      "long" : -2.539663
+      "lat" : 40.25319,
+      "long" : -0.7525505
     },
     {
-      "Municipio" : "Villafranca de Córdoba (Córdoba)",
+      "Municipio" : "Barrax",
       "NumSanciones" : 2,
-      "lat" : 37.96193,
-      "long" : -4.545728
+      "lat" : 39.04573,
+      "long" : -2.200169
     },
     {
-      "Municipio" : "Cúllar (Granada)",
+      "Municipio" : "Motilla del Palancar",
       "NumSanciones" : 2,
-      "lat" : 37.58368,
-      "long" : -2.576282
+      "lat" : 39.56567,
+      "long" : -1.912222
     },
     {
-      "Municipio" : "Gor (Granada)",
+      "Municipio" : "Robledo",
       "NumSanciones" : 2,
-      "lat" : 37.36952,
-      "long" : -2.969444
+      "lat" : 37.8951,
+      "long" : -6.703943
     },
     {
-      "Municipio" : "Villa del Río (Córdoba)",
+      "Municipio" : "Monovar",
       "NumSanciones" : 2,
-      "lat" : 37.98227,
-      "long" : -4.290878
+      "lat" : 38.437102,
+      "long" : -0.840249
     },
     {
-      "Municipio" : "Marmolejo (Jaén)",
+      "Municipio" : "Alzira",
       "NumSanciones" : 2,
-      "lat" : 38.04433,
-      "long" : -4.170608
+      "lat" : 39.15159,
+      "long" : -0.4404637
     },
     {
-      "Municipio" : "Cañada Rosal (Sevilla)",
+      "Municipio" : "Fuentealbilla",
       "NumSanciones" : 2,
-      "lat" : 37.59894,
-      "long" : -5.210358
+      "lat" : 39.26686,
+      "long" : -1.549186
     },
     {
-      "Municipio" : "Granjuela, La (Córdoba)",
+      "Municipio" : "Graja de Iniesta",
       "NumSanciones" : 2,
-      "lat" : 38.3711,
-      "long" : -5.351436
+      "lat" : 39.51725,
+      "long" : -1.669485
     },
     {
-      "Municipio" : "Paradas (Sevilla)",
+      "Municipio" : "Villamalea",
       "NumSanciones" : 2,
-      "lat" : 37.28981,
-      "long" : -5.497219
+      "lat" : 39.36189,
+      "long" : -1.599296
     },
     {
-      "Municipio" : "Moraleda de Zafayona (Granada)",
+      "Municipio" : "Vinaros",
       "NumSanciones" : 2,
-      "lat" : 37.16977,
-      "long" : -3.965147
+      "lat" : 40.469804,
+      "long" : 0.468055
     },
     {
-      "Municipio" : "Montellano (Sevilla)",
+      "Municipio" : "Villanueva de la Jara",
       "NumSanciones" : 2,
-      "lat" : 36.99564,
-      "long" : -5.570882
+      "lat" : 39.44291,
+      "long" : -1.953522
     },
     {
-      "Municipio" : "Villanueva de la Reina (Jaén)",
+      "Municipio" : "Casas de Haro",
       "NumSanciones" : 2,
-      "lat" : 38.00499,
-      "long" : -3.919512
+      "lat" : 39.33335,
+      "long" : -2.272441
     },
     {
-      "Municipio" : "Pedroso, El (Sevilla)",
+      "Municipio" : "Cenizate",
       "NumSanciones" : 2,
-      "lat" : 37.84222,
-      "long" : -5.763515
+      "lat" : 39.3043,
+      "long" : -1.661456
     },
     {
-      "Municipio" : "Jayena (Granada)",
-      "NumSanciones" : 2,
-      "lat" : 36.94883,
-      "long" : -3.822807
-    },
-    {
-      "Municipio" : "Cabezas de San Juan, Las (Sevilla)",
-      "NumSanciones" : 2,
-      "lat" : 36.98133,
-      "long" : -5.940864
-    },
-    {
-      "Municipio" : "Arenas del Rey (Granada)",
-      "NumSanciones" : 2,
-      "lat" : 36.95771,
-      "long" : -3.894323
-    },
-    {
-      "Municipio" : "Huétor Tájar (Granada)",
-      "NumSanciones" : 2,
-      "lat" : 37.19463,
-      "long" : -4.047139
-    },
-    {
-      "Municipio" : "Belmez (Córdoba)",
-      "NumSanciones" : 2,
-      "lat" : 38.27234,
-      "long" : -5.208753
-    },
-    {
-      "Municipio" : "Huévar del Aljarafe (Sevilla)",
-      "NumSanciones" : 2,
-      "lat" : 37.35599,
-      "long" : -6.27659
-    },
-    {
-      "Municipio" : "Villares, Los (Jaén)",
-      "NumSanciones" : 2,
-      "lat" : 37.68932,
-      "long" : -3.81857
-    },
-    {
-      "Municipio" : "Umbrete (Sevilla)",
-      "NumSanciones" : 2,
-      "lat" : 37.36993,
-      "long" : -6.157722
-    },
-    {
-      "Municipio" : "Fuensanta de Martos (Jaén)",
-      "NumSanciones" : 2,
-      "lat" : 37.64784,
-      "long" : -3.906
-    },
-    {
-      "Municipio" : "Aguadulce (Sevilla)",
+      "Municipio" : "Villalgordo del Jucar",
       "NumSanciones" : 1,
-      "lat" : 37.25283,
-      "long" : -4.991125
+      "lat" : 39.297284,
+      "long" : -2.063847
     },
     {
-      "Municipio" : "Guadalcázar (Córdoba)",
+      "Municipio" : "Simat Valldigna",
       "NumSanciones" : 1,
-      "lat" : 37.75755,
-      "long" : -4.94463
+      "lat" : 39.043744,
+      "long" : -0.312113
     },
     {
-      "Municipio" : "Santiponce (Sevilla)",
+      "Municipio" : "Requena",
       "NumSanciones" : 1,
-      "lat" : 37.43869,
-      "long" : -6.038414
+      "lat" : 42.30802,
+      "long" : -4.343727
     },
     {
-      "Municipio" : "Freila (Granada)",
+      "Municipio" : "Sagunt",
       "NumSanciones" : 1,
-      "lat" : 37.52869,
-      "long" : -2.906795
+      "lat" : 39.68077,
+      "long" : -0.2779768
     },
     {
-      "Municipio" : "Iruela, La (Jaén)",
+      "Municipio" : "Sagunto",
       "NumSanciones" : 1,
-      "lat" : 37.92038,
-      "long" : -2.993985
+      "lat" : 39.68077,
+      "long" : -0.2779768
     },
     {
-      "Municipio" : "Alcolea del Río (Sevilla)",
+      "Municipio" : "Serra",
       "NumSanciones" : 1,
-      "lat" : 37.61416,
-      "long" : -5.671293
+      "lat" : 36.92159,
+      "long" : -5.545621
     },
     {
-      "Municipio" : "Zuheros (Córdoba)",
+      "Municipio" : "Alberic",
       "NumSanciones" : 1,
-      "lat" : 37.54314,
-      "long" : -4.316415
+      "lat" : 39.11652,
+      "long" : -0.5177308
     },
     {
-      "Municipio" : "Victoria, La (Córdoba)",
+      "Municipio" : "Villagarcia del Llano",
       "NumSanciones" : 1,
-      "lat" : 37.88327,
-      "long" : -4.784959
+      "lat" : 39.327069,
+      "long" : -1.847275
     },
     {
-      "Municipio" : "Aznalcóllar (Sevilla)",
+      "Municipio" : "Teruel",
       "NumSanciones" : 1,
-      "lat" : 37.52354,
-      "long" : -6.269565
+      "lat" : 40.34411,
+      "long" : -1.10691
     },
     {
-      "Municipio" : "Saucejo, El (Sevilla)",
+      "Municipio" : "Utiel",
       "NumSanciones" : 1,
-      "lat" : 37.07005,
-      "long" : -5.096187
+      "lat" : 39.56762,
+      "long" : -1.203385
     },
     {
-      "Municipio" : "Real de la Jara, El (Sevilla)",
+      "Municipio" : "Pego",
       "NumSanciones" : 1,
-      "lat" : 37.95061,
-      "long" : -6.1559
+      "lat" : 41.33313,
+      "long" : -5.469155
     },
     {
-      "Municipio" : "Alcaracejos (Córdoba)",
+      "Municipio" : "Vall d'Uixo",
       "NumSanciones" : 1,
-      "lat" : 38.38823,
-      "long" : -4.967684
+      "lat" : 39.8232,
+      "long" : -0.233462
     },
     {
-      "Municipio" : "Pedrera (Sevilla)",
+      "Municipio" : "Albentosa",
       "NumSanciones" : 1,
-      "lat" : 37.22301,
-      "long" : -4.896754
+      "lat" : 40.10305,
+      "long" : -0.7695187
     },
     {
-      "Municipio" : "Llerena (Badajoz)",
+      "Municipio" : "Villagarcia Llano",
       "NumSanciones" : 1,
-      "lat" : 38.23769,
-      "long" : -6.015329
+      "lat" : 39.327069,
+      "long" : -1.847275
     },
     {
-      "Municipio" : "Jerez del Marquesado (Granada)",
+      "Municipio" : "Alcaraz",
       "NumSanciones" : 1,
-      "lat" : 37.18385,
-      "long" : -3.159872
+      "lat" : 38.66966,
+      "long" : -2.492647
     },
     {
-      "Municipio" : "Escúzar (Granada)",
+      "Municipio" : "Bugarra",
       "NumSanciones" : 1,
-      "lat" : 37.06251,
-      "long" : -3.761499
+      "lat" : 39.60923,
+      "long" : -0.7733291
     },
     {
-      "Municipio" : "Canena (Jaén)",
+      "Municipio" : "Alfara de la Baronia",
       "NumSanciones" : 1,
-      "lat" : 38.04868,
-      "long" : -3.482172
+      "lat" : 39.763484,
+      "long" : -0.355148
     },
     {
-      "Municipio" : "Sabiote (Jaén)",
+      "Municipio" : "Ontinyent",
       "NumSanciones" : 1,
-      "lat" : 38.06915,
-      "long" : -3.306595
+      "lat" : 38.82102,
+      "long" : -0.610547
     },
     {
-      "Municipio" : "Montemolín (Badajoz)",
+      "Municipio" : "Calpe",
       "NumSanciones" : 1,
-      "lat" : 38.15512,
-      "long" : -6.214543
+      "lat" : 38.64483,
+      "long" : 0.0454063
     },
     {
-      "Municipio" : "Hinojos (Huelva)",
+      "Municipio" : "Casas de Benitez",
       "NumSanciones" : 1,
-      "lat" : 37.29273,
-      "long" : -6.376253
+      "lat" : 39.361543,
+      "long" : -2.12847
     },
     {
-      "Municipio" : "Cuervo de Sevilla, El (Sevilla)",
+      "Municipio" : "Benicarlo",
       "NumSanciones" : 1,
-      "lat" : 36.85136,
-      "long" : -6.041625
+      "lat" : 40.414774,
+      "long" : 0.423408
     },
     {
-      "Municipio" : "Huesa (Jaén)",
+      "Municipio" : "Cortes de Pallas",
       "NumSanciones" : 1,
-      "lat" : 37.76411,
-      "long" : -3.078167
+      "lat" : 39.241937,
+      "long" : -0.941502
     },
     {
-      "Municipio" : "Lucena (Córdoba)",
+      "Municipio" : "Denia",
       "NumSanciones" : 1,
-      "lat" : 37.40873,
-      "long" : -4.485598
+      "lat" : 38.840846,
+      "long" : 0.106377
     },
     {
-      "Municipio" : "Cijuela (Granada)",
+      "Municipio" : "Dos Aguas",
       "NumSanciones" : 1,
-      "lat" : 37.19989,
-      "long" : -3.810801
+      "lat" : 39.28932,
+      "long" : -0.7998479
+    },
+    {
+      "Municipio" : "El Peral",
+      "NumSanciones" : 1,
+      "lat" : 39.497827,
+      "long" : -1.897117
+    },
+    {
+      "Municipio" : "Fuentelespino",
+      "NumSanciones" : 1,
+      "lat" : 39.69083,
+      "long" : -2.668525
+    },
+    {
+      "Municipio" : "Balazote",
+      "NumSanciones" : 1,
+      "lat" : 38.88408,
+      "long" : -2.150826
+    },
+    {
+      "Municipio" : "Anna",
+      "NumSanciones" : 1,
+      "lat" : 39.02021,
+      "long" : -0.6453875
+    },
+    {
+      "Municipio" : "Alpera",
+      "NumSanciones" : 1,
+      "lat" : 38.95939,
+      "long" : -1.231247
+    },
+    {
+      "Municipio" : "Lezuza",
+      "NumSanciones" : 1,
+      "lat" : 38.94902,
+      "long" : -2.353775
+    },
+    {
+      "Municipio" : "Llombai",
+      "NumSanciones" : 1,
+      "lat" : 39.28243,
+      "long" : -0.5724804
+    },
+    {
+      "Municipio" : "Algemesi",
+      "NumSanciones" : 1,
+      "lat" : 39.193971,
+      "long" : -0.436584
+    },
+    {
+      "Municipio" : "Minglanilla",
+      "NumSanciones" : 1,
+      "lat" : 39.53357,
+      "long" : -1.600453
+    },
+    {
+      "Municipio" : "Burriana",
+      "NumSanciones" : 1,
+      "lat" : 39.889554,
+      "long" : -0.087125
+    },
+    {
+      "Municipio" : "Navajas",
+      "NumSanciones" : 1,
+      "lat" : 39.87727,
+      "long" : -0.505991
+    },
+    {
+      "Municipio" : "Alarcon",
+      "NumSanciones" : 1,
+      "lat" : 39.55914,
+      "long" : -2.092322
     }]
