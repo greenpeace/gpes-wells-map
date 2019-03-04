@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
     document.getElementById("mapaTajo").style.height = mapheight + "px";
 
-    var bounds = new L.LatLngBounds(new L.LatLng(34.9919663, -10), new L.LatLng(40.5532684, 1));
+    var bounds = new L.LatLngBounds(new L.LatLng(39.0855203, -8.8438118), new L.LatLng(41.9911131, 0.1358697));
 
     /**
      * Obtain the radius from the area
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
         osmap = L.map('mapaTajo', {
             scrollWheelZoom: false,
             maxBounds: bounds
-        }).setView([37.2141193, -4.3873866], defaultZoomLevel);
+        }).setView([40.4381311, -3.8196226], defaultZoomLevel);
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
             maxZoom: maxZoomLevel,
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
         osmap = L.map('mapaTajo', {
             scrollWheelZoom: false,
             maxBounds: bounds
-        }).setView([37.2141193, -4.3873866], defaultZoomLevel);
+        }).setView([40.4381311, -3.8196226], defaultZoomLevel);
 
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
             maxZoom: maxZoomLevel,
