@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
 
     document.getElementById("mapaJucar").style.height = mapheight + "px";
 
-    var bounds = new L.LatLngBounds(new L.LatLng(34.9919663, -10), new L.LatLng(40.5532684, 1));
+    var bounds = new L.LatLngBounds(new L.LatLng(37.9420322, -5.2646828), new L.LatLng(41.557023, 2.4494889));
 
     /**
      * Obtain the radius from the area
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var drawSancionesJucar = function () {
         osmap = L.map('mapaJucar', {
             scrollWheelZoom: false,
-            // maxBounds: bounds
+            maxBounds: bounds
         }).setView([39.5268021, -1.9743865], defaultZoomLevel);
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var drawValorJucar = function () {
         osmap = L.map('mapaJucar', {
             scrollWheelZoom: false,
-            // maxBounds: bounds
+            maxBounds: bounds
         }).setView([39.5268021, -1.9743865], defaultZoomLevel);
 
         L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
