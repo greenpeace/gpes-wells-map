@@ -1,0 +1,577 @@
+[
+    {
+      "Municipio" : "Puebla del Río, La (Sevilla)",
+      "Danos" : 64733856,
+      "lat" : 37.26748,
+      "long" : -6.062557
+    },
+    {
+      "Municipio" : "Campana, La (Sevilla)",
+      "Danos" : 2206390,
+      "lat" : 37.56945,
+      "long" : -5.425768
+    },
+    {
+      "Municipio" : "María (Almería)",
+      "Danos" : 166814,
+      "lat" : 37.7111,
+      "long" : -2.165795
+    },
+    {
+      "Municipio" : "Luisiana, La (Sevilla)",
+      "Danos" : 150004,
+      "lat" : 37.52613,
+      "long" : -5.248721
+    },
+    {
+      "Municipio" : "Écija (Sevilla)",
+      "Danos" : 102768,
+      "lat" : 37.54093,
+      "long" : -5.079953
+    },
+    {
+      "Municipio" : "Lebrija (Sevilla)",
+      "Danos" : 81262,
+      "lat" : 36.91951,
+      "long" : -6.078367
+    },
+    {
+      "Municipio" : "Carmona (Sevilla)",
+      "Danos" : 66782,
+      "lat" : 37.47102,
+      "long" : -5.642328
+    },
+    {
+      "Municipio" : "Aznalcázar (Sevilla)",
+      "Danos" : 48210,
+      "lat" : 37.30518,
+      "long" : -6.248415
+    },
+    {
+      "Municipio" : "Campana (Sevilla)",
+      "Danos" : 44585,
+      "lat" : 37.56945,
+      "long" : -5.425768
+    },
+    {
+      "Municipio" : "Villaverde del Río (Sevilla)",
+      "Danos" : 41539,
+      "lat" : 37.58805,
+      "long" : -5.873684
+    },
+    {
+      "Municipio" : "Lupión (Jaén)",
+      "Danos" : 34594,
+      "lat" : 37.99656,
+      "long" : -3.546936
+    },
+    {
+      "Municipio" : "Bedmar y Garcíez (Jaén)",
+      "Danos" : 31041,
+      "lat" : 37.82271,
+      "long" : -3.411761
+    },
+    {
+      "Municipio" : "Palma del Río (Córdoba)",
+      "Danos" : 27895,
+      "lat" : 37.70163,
+      "long" : -5.283767
+    },
+    {
+      "Municipio" : "Morón de la Frontera (Sevilla)",
+      "Danos" : 27257,
+      "lat" : 37.1223,
+      "long" : -5.451869
+    },
+    {
+      "Municipio" : "Alcalá de Guadaíra (Sevilla)",
+      "Danos" : 26654,
+      "lat" : 37.33833,
+      "long" : -5.844032
+    },
+    {
+      "Municipio" : "Montilla (Córdoba)",
+      "Danos" : 23292,
+      "lat" : 37.58963,
+      "long" : -4.638313
+    },
+    {
+      "Municipio" : "Olivares (Sevilla)",
+      "Danos" : 18352,
+      "lat" : 37.41868,
+      "long" : -6.155926
+    },
+    {
+      "Municipio" : "Úbeda (Jaén)",
+      "Danos" : 18344,
+      "lat" : 38.00809,
+      "long" : -3.368519
+    },
+    {
+      "Municipio" : "Quesada (Jaén)",
+      "Danos" : 14678,
+      "lat" : 37.8451,
+      "long" : -3.067591
+    },
+    {
+      "Municipio" : "Hornachuelos (Córdoba)",
+      "Danos" : 13640,
+      "lat" : 37.83084,
+      "long" : -5.242984
+    },
+    {
+      "Municipio" : "Mairena del Aljarafe (Sevilla)",
+      "Danos" : 12823,
+      "lat" : 37.34449,
+      "long" : -6.065354
+    },
+    {
+      "Municipio" : "Dos Hermanas (Sevilla)",
+      "Danos" : 10064,
+      "lat" : 37.28318,
+      "long" : -5.922242
+    },
+    {
+      "Municipio" : "Albolote (Granada)",
+      "Danos" : 9694,
+      "lat" : 37.23085,
+      "long" : -3.657415
+    },
+    {
+      "Municipio" : "Linares (Jaén)",
+      "Danos" : 9317,
+      "lat" : 38.09362,
+      "long" : -3.635844
+    },
+    {
+      "Municipio" : "Marchena (Sevilla)",
+      "Danos" : 8792,
+      "lat" : 37.32972,
+      "long" : -5.416465
+    },
+    {
+      "Municipio" : "Ibros (Jaén)",
+      "Danos" : 8106,
+      "lat" : 38.02261,
+      "long" : -3.502375
+    },
+    {
+      "Municipio" : "Cabra (Córdoba)",
+      "Danos" : 8079,
+      "lat" : 37.47437,
+      "long" : -4.425931
+    },
+    {
+      "Municipio" : "Puebla de Don Fadrique (Granada)",
+      "Danos" : 7596,
+      "lat" : 37.9579,
+      "long" : -2.43508
+    },
+    {
+      "Municipio" : "Sanlúcar la Mayor (Sevilla)",
+      "Danos" : 6892,
+      "lat" : 37.38578,
+      "long" : -6.201977
+    },
+    {
+      "Municipio" : "Martos (Jaén)",
+      "Danos" : 6811,
+      "lat" : 37.72278,
+      "long" : -3.966259
+    },
+    {
+      "Municipio" : "Torreblascopedro (Jaén)",
+      "Danos" : 6787,
+      "lat" : 37.99618,
+      "long" : -3.638916
+    },
+    {
+      "Municipio" : "Gilena (Sevilla)",
+      "Danos" : 6604,
+      "lat" : 37.25134,
+      "long" : -4.913494
+    },
+    {
+      "Municipio" : "Almonte (Huelva)",
+      "Danos" : 5710,
+      "lat" : 37.26254,
+      "long" : -6.51724
+    },
+    {
+      "Municipio" : "Guadalcázar (Córdoba)",
+      "Danos" : 5668,
+      "lat" : 37.75755,
+      "long" : -4.94463
+    },
+    {
+      "Municipio" : "Gerena (Sevilla)",
+      "Danos" : 5365,
+      "lat" : 37.52553,
+      "long" : -6.157654
+    },
+    {
+      "Municipio" : "Jerez de la Frontera (Cádiz)",
+      "Danos" : 5181,
+      "lat" : 36.68656,
+      "long" : -6.137173
+    },
+    {
+      "Municipio" : "Arquillos (Jaén)",
+      "Danos" : 5029,
+      "lat" : 38.18201,
+      "long" : -3.430886
+    },
+    {
+      "Municipio" : "Montefrío (Granada)",
+      "Danos" : 4558,
+      "lat" : 37.32097,
+      "long" : -4.011364
+    },
+    {
+      "Municipio" : "Vilches (Jaén)",
+      "Danos" : 4476,
+      "lat" : 38.20467,
+      "long" : -3.507662
+    },
+    {
+      "Municipio" : "Villafranca de Córdoba (Córdoba)",
+      "Danos" : 4429,
+      "lat" : 37.96193,
+      "long" : -4.545728
+    },
+    {
+      "Municipio" : "Jaén (Jaén)",
+      "Danos" : 3760,
+      "lat" : 37.76574,
+      "long" : -3.789518
+    },
+    {
+      "Municipio" : "Fuentes de Andalucía (Sevilla)",
+      "Danos" : 3737,
+      "lat" : 37.46221,
+      "long" : -5.348385
+    },
+    {
+      "Municipio" : "Baena (Córdoba)",
+      "Danos" : 3578,
+      "lat" : 37.61441,
+      "long" : -4.326089
+    },
+    {
+      "Municipio" : "Guarromán (Jaén)",
+      "Danos" : 2714,
+      "lat" : 38.18151,
+      "long" : -3.686501
+    },
+    {
+      "Municipio" : "Bonares (Huelva)",
+      "Danos" : 2559,
+      "lat" : 37.3219,
+      "long" : -6.680697
+    },
+    {
+      "Municipio" : "Illora (Granada)",
+      "Danos" : 2473,
+      "lat" : 37.28843,
+      "long" : -3.879782
+    },
+    {
+      "Municipio" : "Chimeneas (Granada)",
+      "Danos" : 2334,
+      "lat" : 37.13137,
+      "long" : -3.823198
+    },
+    {
+      "Municipio" : "Baeza (Jaén)",
+      "Danos" : 2123,
+      "lat" : 37.99343,
+      "long" : -3.469237
+    },
+    {
+      "Municipio" : "Alcaudete (Jaén)",
+      "Danos" : 2005,
+      "lat" : 37.59106,
+      "long" : -4.086735
+    },
+    {
+      "Municipio" : "Alcalá la Real (Jaén)",
+      "Danos" : 1947,
+      "lat" : 37.46358,
+      "long" : -3.925078
+    },
+    {
+      "Municipio" : "Alameda (Málaga)",
+      "Danos" : 1790,
+      "lat" : 37.20783,
+      "long" : -4.658073
+    },
+    {
+      "Municipio" : "Navas de San Juan (Jaén)",
+      "Danos" : 1482,
+      "lat" : 38.18464,
+      "long" : -3.315369
+    },
+    {
+      "Municipio" : "Pozo Alcón (Jaén)",
+      "Danos" : 1449,
+      "lat" : 37.70512,
+      "long" : -2.93436
+    },
+    {
+      "Municipio" : "Jódar (Jaén)",
+      "Danos" : 1421,
+      "lat" : 37.84398,
+      "long" : -3.352545
+    },
+    {
+      "Municipio" : "Sevilla (Sevilla)",
+      "Danos" : 1256,
+      "lat" : 37.38264,
+      "long" : -5.996295
+    },
+    {
+      "Municipio" : "Guardia de Jaén, La (Jaén)",
+      "Danos" : 1210,
+      "lat" : 37.74164,
+      "long" : -3.692717
+    },
+    {
+      "Municipio" : "Begíjar (Jaén)",
+      "Danos" : 1180,
+      "lat" : 37.98452,
+      "long" : -3.53483
+    },
+    {
+      "Municipio" : "Castillo de Locubin (Jaén)",
+      "Danos" : 1109,
+      "lat" : 37.5441454,
+      "long" : -3.9400803
+    },
+    {
+      "Municipio" : "Bélmez de la Moraleda (Jaén)",
+      "Danos" : 980,
+      "lat" : 37.7239,
+      "long" : -3.38222
+    },
+    {
+      "Municipio" : "Cijuela (Granada)",
+      "Danos" : 941,
+      "lat" : 37.19989,
+      "long" : -3.810801
+    },
+    {
+      "Municipio" : "Pedro Martínez (Granada)",
+      "Danos" : 932,
+      "lat" : 37.50168,
+      "long" : -3.230659
+    },
+    {
+      "Municipio" : "Cazorla (Jaén)",
+      "Danos" : 844,
+      "lat" : 37.91055,
+      "long" : -3.002167
+    },
+    {
+      "Municipio" : "Villamanrique de la Condesa (Sevilla)",
+      "Danos" : 822,
+      "lat" : 37.2463,
+      "long" : -6.306533
+    },
+    {
+      "Municipio" : "Puerta de Segura, La (Jaén)",
+      "Danos" : 749,
+      "lat" : 38.34861,
+      "long" : -2.737147
+    },
+    {
+      "Municipio" : "Arenas del Rey (Granada)",
+      "Danos" : 729,
+      "lat" : 36.95771,
+      "long" : -3.894323
+    },
+    {
+      "Municipio" : "Villacarrillo (Jaén)",
+      "Danos" : 710,
+      "lat" : 38.11541,
+      "long" : -3.087194
+    },
+    {
+      "Municipio" : "Moclín (Granada)",
+      "Danos" : 692,
+      "lat" : 37.34158,
+      "long" : -3.786422
+    },
+    {
+      "Municipio" : "Azuaga (Badajoz)",
+      "Danos" : 635,
+      "lat" : 38.25962,
+      "long" : -5.677916
+    },
+    {
+      "Municipio" : "Cogollos de la Vega (Granada)",
+      "Danos" : 583,
+      "lat" : 37.27486,
+      "long" : -3.572908
+    },
+    {
+      "Municipio" : "Cazalla de la Sierra (Sevilla)",
+      "Danos" : 569,
+      "lat" : 37.9296,
+      "long" : -5.760799
+    },
+    {
+      "Municipio" : "Moraleda de Zafayona (Granada)",
+      "Danos" : 513,
+      "lat" : 37.16977,
+      "long" : -3.965147
+    },
+    {
+      "Municipio" : "Iznatoraf (Jaén)",
+      "Danos" : 486,
+      "lat" : 38.15744,
+      "long" : -3.032914
+    },
+    {
+      "Municipio" : "Peza, La (Granada)",
+      "Danos" : 449,
+      "lat" : 37.2756,
+      "long" : -3.284761
+    },
+    {
+      "Municipio" : "Casariche (Sevilla)",
+      "Danos" : 437,
+      "lat" : 37.29389,
+      "long" : -4.759532
+    },
+    {
+      "Municipio" : "Almodóvar del Campo (Ciudad Real)",
+      "Danos" : 425,
+      "lat" : 38.70892,
+      "long" : -4.17864
+    },
+    {
+      "Municipio" : "Guadahortuna (Granada)",
+      "Danos" : 338,
+      "lat" : 37.55655,
+      "long" : -3.400713
+    },
+    {
+      "Municipio" : "Valle del Zalabí (Granada)",
+      "Danos" : 324,
+      "lat" : 37.28611,
+      "long" : -3.008889
+    },
+    {
+      "Municipio" : "Freila (Granada)",
+      "Danos" : 319,
+      "lat" : 37.52869,
+      "long" : -2.906795
+    },
+    {
+      "Municipio" : "Zújar (Granada)",
+      "Danos" : 289,
+      "lat" : 37.54015,
+      "long" : -2.842817
+    },
+    {
+      "Municipio" : "Orce (Granada)",
+      "Danos" : 248,
+      "lat" : 37.72141,
+      "long" : -2.479451
+    },
+    {
+      "Municipio" : "Calzada de Calatrava (Ciudad Real)",
+      "Danos" : 248,
+      "lat" : 38.70487,
+      "long" : -3.777296
+    },
+    {
+      "Municipio" : "Chauchina (Granada)",
+      "Danos" : 227,
+      "lat" : 37.20142,
+      "long" : -3.77254
+    },
+    {
+      "Municipio" : "Adamuz (Córdoba)",
+      "Danos" : 183,
+      "lat" : 38.02736,
+      "long" : -4.524873
+    },
+    {
+      "Municipio" : "Malahá, La (Granada)",
+      "Danos" : 163,
+      "lat" : 37.10146,
+      "long" : -3.722502
+    },
+    {
+      "Municipio" : "Doña Mencía (Córdoba)",
+      "Danos" : 150,
+      "lat" : 37.55457,
+      "long" : -4.357603
+    },
+    {
+      "Municipio" : "Loja (Granada)",
+      "Danos" : 147,
+      "lat" : 37.16884,
+      "long" : -4.151471
+    },
+    {
+      "Municipio" : "Iruela, La (Jaén)",
+      "Danos" : 144,
+      "lat" : 37.92038,
+      "long" : -2.993985
+    },
+    {
+      "Municipio" : "Cambil (Jaén)",
+      "Danos" : 124,
+      "lat" : 37.67691,
+      "long" : -3.565627
+    },
+    {
+      "Municipio" : "Umbrete (Sevilla)",
+      "Danos" : 84,
+      "lat" : 37.36993,
+      "long" : -6.157722
+    },
+    {
+      "Municipio" : "Roda de Andalucía, La (Sevilla)",
+      "Danos" : 75,
+      "lat" : 37.20099,
+      "long" : -4.779276
+    },
+    {
+      "Municipio" : "Iznalloz (Granada)",
+      "Danos" : 74,
+      "lat" : 37.3927,
+      "long" : -3.527549
+    },
+    {
+      "Municipio" : "Gor (Granada)",
+      "Danos" : 62,
+      "lat" : 37.36952,
+      "long" : -2.969444
+    },
+    {
+      "Municipio" : "Puebla de los Infantes, La (Sevilla)",
+      "Danos" : 27,
+      "lat" : 37.77852,
+      "long" : -5.388995
+    },
+    {
+      "Municipio" : "Cuevas del Campo (Granada)",
+      "Danos" : 17,
+      "lat" : 37.60847,
+      "long" : -2.931033
+    },
+    {
+      "Municipio" : "Alcalá del Valle (Cádiz)",
+      "Danos" : 13,
+      "lat" : 36.90491,
+      "long" : -5.173237
+    },
+    {
+      "Municipio" : "Villanueva del Arzobispo (Jaén)",
+      "Danos" : 4,
+      "lat" : 38.16934,
+      "long" : -3.010099
+    }]

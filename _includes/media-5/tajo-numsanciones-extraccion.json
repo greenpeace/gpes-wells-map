@@ -1,0 +1,43 @@
+[
+    {
+      "Municipio" : "Cáceres",
+      "NumSanciones" : 277,
+      "lat" : 39.47618,
+      "long" : -6.37076
+    },
+    {
+      "Municipio" : "Madrid",
+      "NumSanciones" : 108,
+      "lat" : 40.4157329,
+      "long" : -3.702973
+    },
+    {
+      "Municipio" : "Toledo",
+      "NumSanciones" : 93,
+      "lat" : 39.85678,
+      "long" : -4.024476
+    },
+    {
+      "Municipio" : "Ávila",
+      "NumSanciones" : 65,
+      "lat" : 40.65642,
+      "long" : -4.700323
+    },
+    {
+      "Municipio" : "Guadalajara",
+      "NumSanciones" : 42,
+      "lat" : 40.62981,
+      "long" : -3.166493
+    },
+    {
+      "Municipio" : "Salamanca",
+      "NumSanciones" : 16,
+      "lat" : 40.96497,
+      "long" : -5.663047
+    },
+    {
+      "Municipio" : "Cuenca",
+      "NumSanciones" : 4,
+      "lat" : 40.07183,
+      "long" : -2.134005
+    }]
