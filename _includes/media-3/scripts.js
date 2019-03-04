@@ -74,10 +74,10 @@ document.addEventListener("DOMContentLoaded", function (t) {
             // maxBounds: bounds
         }).setView([39.5268021, -1.9743865], defaultZoomLevel);
 
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+        L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}.png?lang={{ site.data[page.lang_file].lang }}', {
             maxZoom: maxZoomLevel,
             minZoom: minZoomLevel,
-            attribution: 'Tiles &copy; Esri &mdash; National Geographic, Esri, DeLorme, NAVTEQ, UNEP-WCMC, USGS, NASA, ESA, METI, NRCAN, GEBCO, NOAA, iPC',
+            attribution: '&copy; OpenStreetMap contributors, Wikimedia',
             id: 'mapbox.light'
         }).addTo(osmap);
 
