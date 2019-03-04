@@ -9,13 +9,13 @@
     padding-left: 0;
 }
 
-#notaSobreEscala {
+.notaSobreEscala {
     margin-bottom: 1em;
     line-height: 13px;
     margin-top: 0.2em;
 }
 
-#notaSobreEscala small {
+.notaSobreEscala small {
     font-size: 11px;
 }
 
