@@ -80,14 +80,14 @@
     {
       "Municipio" : "Pedralba",
       "NumSanciones" : 3,
-      "lat" : 42.02699,
-      "long" : -6.696118
+      "lat" : 39.6049096,
+      "long" : -0.724983
     },
     {
       "Municipio" : "Zarra",
       "NumSanciones" : 3,
-      "lat" : 42.51579,
-      "long" : -2.882306
+      "lat" : 39.0917139,
+      "long" : -1.0746694
     },
     {
       "Municipio" : "Mora de Rubielos",
@@ -110,8 +110,8 @@
     {
       "Municipio" : "Robledo",
       "NumSanciones" : 2,
-      "lat" : 37.8951,
-      "long" : -6.703943
+      "lat" : 38.7581366,
+      "long" : -2.4501908
     },
     {
       "Municipio" : "Monovar",
@@ -182,8 +182,8 @@
     {
       "Municipio" : "Requena",
       "NumSanciones" : 1,
-      "lat" : 42.30802,
-      "long" : -4.343727
+      "lat" : 39.4908714,
+      "long" : -1.1071822
     },
     {
       "Municipio" : "Sagunt",
@@ -200,8 +200,8 @@
     {
       "Municipio" : "Serra",
       "NumSanciones" : 1,
-      "lat" : 36.92159,
-      "long" : -5.545621
+      "lat" : 39.6857355,
+      "long" : -0.4286331
     },
     {
       "Municipio" : "Alberic",
@@ -230,8 +230,8 @@
     {
       "Municipio" : "Pego",
       "NumSanciones" : 1,
-      "lat" : 41.33313,
-      "long" : -5.469155
+      "lat" : 38.8425987,
+      "long" : -0.1147317
     },
     {
       "Municipio" : "Vall d'Uixo",
