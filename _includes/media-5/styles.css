@@ -1,11 +1,11 @@
 /* BEGIN STYLES */
 
-#mapaJucar h4 {
+#mapaTajo2 h4 {
     font-size: 15px !important;
     padding-left: 0;
 }
 
-#mapaJucar p {
+#mapaTajo2 p {
     padding-left: 0;
 }
 
@@ -19,11 +19,11 @@
     font-size: 11px;
 }
 
-#tituloGraficoJucar {
+#tituloGraficoTajo2 {
     font-size: 23px !important;
 }
 
-#numSancionesJucar, #valorDanosJucar {
+#numSancionesTajo2, #valorDanosTajo2 {
     background-color: #2ab20b;
     font: 700 14px Rubik,sans-serif;
     color: #fff !important;
