@@ -1,8 +1,9 @@
 language: "pt-PT"
 lang: "pt"
 
-media-1:
+media:
     num_sanctions: "Número de sanções"
     damage_value: "Valor dos estragos"
     footnote: "Nota: Clicka nos circulos para mais informação. Para que todos os pontos estejam visíveis adicionámos un valor base."
 
+share_link: "Código fonte (espanhol)"

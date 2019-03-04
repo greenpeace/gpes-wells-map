@@ -1,9 +1,16 @@
 language: "es-ES"
 lang: "es"
 
-media-1:
+media:
     num_sanctions: "Número de sanciones"
     damage_value: "Valor de los daños"
     footnote: "Nota: Haz click en los circulos para más información. Para que todos los puntos sean visibles se les ha añadido un valor base."
 
+share_link: "Código fuente (español) - Publica este mapa en tu sitio web."
 
+titles:
+    media-1: "Guadalquivir pozos"
+    media-2: "Tajo pozos"
+    media-3: "Júcar pozos"
+    media-4: "Guadalquivir extracción"
+    media-5: "Tajo extracción"
