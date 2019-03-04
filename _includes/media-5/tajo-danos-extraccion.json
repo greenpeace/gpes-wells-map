@@ -1,0 +1,43 @@
+[
+    {
+      "Municipio" : "Cáceres",
+      "Danos" : 247714,
+      "lat" : 39.47618,
+      "long" : -6.37076
+    },
+    {
+      "Municipio" : "Madrid",
+      "Danos" : 202212,
+      "lat" : 40.4157329,
+      "long" : -3.702973
+    },
+    {
+      "Municipio" : "Toledo",
+      "Danos" : 52912,
+      "lat" : 39.85678,
+      "long" : -4.024476
+    },
+    {
+      "Municipio" : "Ávila",
+      "Danos" : 26485,
+      "lat" : 40.65642,
+      "long" : -4.700323
+    },
+    {
+      "Municipio" : "Guadalajara",
+      "Danos" : 19726,
+      "lat" : 40.62981,
+      "long" : -3.166493
+    },
+    {
+      "Municipio" : "Salamanca",
+      "Danos" : 13538,
+      "lat" : 40.96497,
+      "long" : -5.663047
+    },
+    {
+      "Municipio" : "Cuenca",
+      "Danos" : 651,
+      "lat" : 40.07183,
+      "long" : -2.134005
+    }]
