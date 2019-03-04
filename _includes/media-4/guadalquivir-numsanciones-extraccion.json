@@ -235,7 +235,7 @@
     },
     {
       "Municipio" : "Campana, La (Sevilla)",
-      "NumSanciones" : 4,
+      "NumSanciones" : 5,
       "lat" : 37.56945,
       "long" : -5.425768
     },
@@ -508,12 +508,6 @@
       "NumSanciones" : 1,
       "lat" : 37.5441454,
       "long" : -3.9400803
-    },
-    {
-      "Municipio" : "Campana (Sevilla)",
-      "NumSanciones" : 1,
-      "lat" : 37.56945,
-      "long" : -5.425768
     },
     {
       "Municipio" : "Calzada de Calatrava (Ciudad Real)",
