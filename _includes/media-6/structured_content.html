@@ -14,10 +14,11 @@
 
 </style>
 <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
-<div id="myDiv"></div>
+
+<div id="denuncias_extracciones_ilegales"></div>
 <script>
   document.addEventListener("DOMContentLoaded", function(event) {
-    var data3 = [{
+    var denuncias_extracciones_ilegales = [{
       y: ['Ebro', 'Segura', 'Cantábrico', 'Júcar', 'Miño', 'Guadiana', 'Tajo', 'Guadalquivir', 'Duero'],
       x: [0, 109, 136, 147, 265, 540, 607, 974, 1305],
       marker: {
@@ -27,7 +28,7 @@
       orientation: 'h'
     }];
 
-    var layout3 = {
+    var layout_denuncias_extracciones_ilegales = {
       title: 'Número de denuncias por el resto de extracciones ilegales de agua<br />2013 / 2017',
       font: {
         family: '"Work Sans",sans-serif',
@@ -43,7 +44,7 @@
         y: 0,
         xref: 'x',
         yref: 'y',
-        text: 'Sin<br>datos',
+        text: 'No hay<br>datos disponibles',
         showarrow: true,
         arrowhead: 7,
         ax: 70,
@@ -58,15 +59,17 @@
       paper_bgcolor: '#f6f6f5',
       plot_bgcolor: '#f6f6f5',
       xaxis: {
-        title: "Número de denuncias"
+        title: "Número de denuncias",
+        fixedrange: true
       },
       yaxis: {
-        title: "Confederaciones hidrográficas"
+        title: "Confederaciones hidrográficas",
+        fixedrange: true
       }
 
     }
 
-    Plotly.newPlot('myDiv', data3, layout3, {
+    Plotly.newPlot('denuncias_extracciones_ilegales', denuncias_extracciones_ilegales, layout_denuncias_extracciones_ilegales, {
       displayModeBar: false
     });
 
