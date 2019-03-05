@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
                 stroke: false,
                 fillColor: '#ff9f00',
                 fillOpacity: 0.6
-            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.num_sanctions }}: " + node.NumSanciones + "</p>");
+            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media.num_sanctions }}: " + node.NumSanciones + "</p>");
         });
     }
 
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function (t) {
                 stroke: false,
                 fillColor: '#e80505',
                 fillOpacity: 0.6
-            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media-1.damage_value }}: " + easyNumbersEuro(node.Danos) + "</p>");
+            }).addTo(osmap).bindPopup("<h4>" + node.Municipio + "</h4><p>{{ site.data[page.lang_file].media.damage_value }}: " + easyNumbersEuro(node.Danos) + "</p>");
         });
     }
 
@@ -99,13 +99,13 @@ document.addEventListener("DOMContentLoaded", function (t) {
     var valorDanos = document.getElementById("valorDanosAndalucia2");
     var TituloGraficoAndalucia = document.getElementById("tituloGraficoAndalucia2");
     numSanciones.addEventListener("click", function () {
-        TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.num_sanctions }}";
+        TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media.num_sanctions }}";
         osmap.off();
         osmap.remove();
         drawSancionesAndalucia2();
     });
     valorDanos.addEventListener("click", function () {
-        TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media-1.damage_value }}";
+        TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media.damage_value }}";
         osmap.off();
         osmap.remove();
         drawValorAndalucia2();
