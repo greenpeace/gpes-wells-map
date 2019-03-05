@@ -7,3 +7,20 @@ media:
     footnote: "Nota: Clicka nos circulos para mais informação. Para que todos os pontos estejam visíveis adicionámos un valor base."
 
 share_link: "Código fonte (espanhol)"
+
+titles:
+    media-1: "Guadalquivir pozos"
+    media-2: "Tajo pozos"
+    media-3: "Júcar pozos"
+    media-4: "Guadalquivir extracción"
+    media-5: "Tajo extracción"
+    media-6: "Gráfico"
+
+media-6:
+    title-1: "Nº de denuncias por extracción de agua por pozo ilegal"
+    title-2: "Nº de denuncias por el resto de extracciones ilegales de agua"
+    num-den: "Número de denuncias"
+    confed: "Confederaciones hidrográficas"
+    no-data: "No hay<br>datos disponibles"
+    wells: "Pozos"
+    extrac: "Extracciones"

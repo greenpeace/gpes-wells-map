@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }];
 
     var layout_denuncias_pozos_ilegales = {
-      title: 'Nº de denuncias por extracción de agua por pozo ilegal<br />2013 / 2017',
+      title: '{{ site.data[page.lang_file].media-6.title-1 }}<br />2013 / 2017',
       font: {
           family: '"Work Sans",sans-serif',
           size: 11,
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
           y: 0,
           xref: 'x',
           yref: 'y',
-          text: 'No hay<br>datos disponibles',
+          text: '{{ site.data[page.lang_file].media-6.no-data }}',
           showarrow: true,
           arrowhead: 7,
           ax: 70,
@@ -74,12 +74,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
       paper_bgcolor: '#f6f6f5',
       plot_bgcolor: '#f6f6f5',
       xaxis: {
-          title: "Número de denuncias",
+          title: "{{ site.data[page.lang_file].media-6.num-den }}",
           fixedrange: true,
-          range: [1350]
+          range: [-20, 1350]
       },
       yaxis: {
-          title: "Confederaciones hidrográficas",
+          title: "{{ site.data[page.lang_file].media-6.confed }}",
           fixedrange: true
       }
 
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }];
 
     var layout_denuncias_extracciones_ilegales = {
-      title: 'Nº de denuncias por el resto de extracciones ilegales de agua<br />2013 / 2017',
+      title: '{{ site.data[page.lang_file].media-6.title-2 }}<br />2013 / 2017',
       font: {
           family: '"Work Sans",sans-serif',
           size: 11,
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
           y: 0,
           xref: 'x',
           yref: 'y',
-          text: 'No hay<br>datos disponibles (???)',
+          text: '{{ site.data[page.lang_file].media-6.no-data }} (???)',
           showarrow: true,
           arrowhead: 7,
           ax: 70,
@@ -148,12 +148,12 @@ document.addEventListener("DOMContentLoaded", function (event) {
       paper_bgcolor: '#f6f6f5',
       plot_bgcolor: '#f6f6f5',
       xaxis: {
-          title: "Número de denuncias",
+          title: "{{ site.data[page.lang_file].media-6.num-den }}",
           fixedrange: true,
-          range: [1350]
+          range: [-20, 1350]
       },
       yaxis: {
-          title: "Confederaciones hidrográficas",
+          title: "{{ site.data[page.lang_file].media-6.confed }}",
           fixedrange: true
       }
 
