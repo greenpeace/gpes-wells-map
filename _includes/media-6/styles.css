@@ -1,0 +1,16 @@
+#total_pozos_ilegales,
+#total_extracciones_ilegales {
+    background-color: #2ab20b;
+    font: 700 14px Rubik, sans-serif;
+    color: #fff !important;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    margin-bottom: 5px;
+}
+
+#denuncias_extracciones_ilegales {
+    margin-bottom: 1em;
+}

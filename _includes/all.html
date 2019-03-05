@@ -7,6 +7,8 @@
 <hr />
 <p>&nbsp;</p>
 
+
+
 <h2>{{ site.data[page.lang_file].titles.media-1 }}</h2>
 
 <!-- ************************* BEGIN GUADALQUIVIR ************************* -->
@@ -33,9 +35,11 @@ var guadalquivir_danos = {% include media-1/guadalquivir-danos.json %};
 <hr />
 <p>&nbsp;</p>
 
+
+
 <h2>{{ site.data[page.lang_file].titles.media-2 }}</h2>
 
-<!-- ************************* BEGIN TAJO ************************* -->
+<!-- ************************* BEGIN TAGUS ************************* -->
 
 <style>
 {% include media-2/styles.css %}
@@ -51,7 +55,7 @@ var tajo_danos = {% include media-2/tajo-danos.json %};
 {% include media-2/scripts.js %}
 </script>
 
-<!-- ************************* END TAJO ************************* -->
+<!-- ************************* END TAGUS ************************* -->
 
 <p><a href="https://jsfiddle.net/greenpeace/1q75vk4u/" target="_blank">{{ site.data[page.lang_file].share_link }}</a></p>
 
@@ -59,9 +63,11 @@ var tajo_danos = {% include media-2/tajo-danos.json %};
 <hr />
 <p>&nbsp;</p>
 
+
+
 <h2>{{ site.data[page.lang_file].titles.media-3 }}</h2>
 
-<!-- ************************* BEGIN JUCAR ************************* -->
+<!-- ************************* BEGIN JÚCAR ************************* -->
 
 <style>
 {% include media-3/styles.css %}
@@ -77,7 +83,7 @@ var jucar_danos = {% include media-3/jucar-danos.json %};
 {% include media-3/scripts.js %}
 </script>
 
-<!-- ************************* END JUCAR ************************* -->
+<!-- ************************* END JÚCAR ************************* -->
 
 <p><a href="https://jsfiddle.net/greenpeace/nzgba6vp/" target="_blank">{{ site.data[page.lang_file].share_link }}</a></p>
 
@@ -85,9 +91,11 @@ var jucar_danos = {% include media-3/jucar-danos.json %};
 <hr />
 <p>&nbsp;</p>
 
+
+
 <h2>{{ site.data[page.lang_file].titles.media-4 }}</h2>
 
-<!-- ************************* BEGIN ANDALUCIA 2 ************************* -->
+<!-- ************************* BEGIN GUADALQUIVIR 2 ************************* -->
 
 <style>
 {% include media-4/styles.css %}
@@ -103,7 +111,7 @@ var guadalquivir_danos2 = {% include media-4/guadalquivir-danos-extraccion.json 
 {% include media-4/scripts.js %}
 </script>
 
-<!-- ************************* END ANDALUCIA2 ************************* -->
+<!-- ************************* END GUADALQUIVIR 2 ************************* -->
 
 <p><a href="https://jsfiddle.net/greenpeace/rvk3ue4f/" target="_blank">{{ site.data[page.lang_file].share_link }}</a></p>
 
@@ -111,9 +119,11 @@ var guadalquivir_danos2 = {% include media-4/guadalquivir-danos-extraccion.json 
 <hr />
 <p>&nbsp;</p>
 
+
+
 <h2>{{ site.data[page.lang_file].titles.media-5 }}</h2>
 
-<!-- ************************* BEGIN TAJO 2 ************************* -->
+<!-- ************************* BEGIN TAGUS 2 ************************* -->
 
 <style>
 {% include media-5/styles.css %}
@@ -129,7 +139,7 @@ var tajo_danos2 = {% include media-5/tajo-danos-extraccion.json %};
 {% include media-5/scripts.js %}
 </script>
 
-<!-- ************************* END TAJO 2 ************************* -->
+<!-- ************************* END TAGUS 2 ************************* -->
 
 <p><a href="https://jsfiddle.net/greenpeace/0ayjzvcd/" target="_blank">{{ site.data[page.lang_file].share_link }}</a></p>
 
@@ -137,19 +147,26 @@ var tajo_danos2 = {% include media-5/tajo-danos-extraccion.json %};
 <hr />
 <p>&nbsp;</p>
 
-<h2>{{ site.data[page.lang_file].titles.media-6 }}</h2>
-
-<!-- ************************* BEGIN CHART 1 ************************* -->
-
-{% include media-6/structured_content.html %}
-
-<!-- ************************* END CHART 1 ************************* -->
-
-<p><a href="https://jsfiddle.net/greenpeace/7wkhgr5m/" target="_blank">{{ site.data[page.lang_file].share_link }}</a></p>
-
 
 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+
+
+<h2>{{ site.data[page.lang_file].titles.media-6 }}</h2>
+
+<!-- ************************* BEGIN CHART ************************* -->
+
+<style>
+{% include media-6/styles.css %}
+</style>
+{% include media-6/structured_content.html %}
+<script>
+{% include media-6/scripts.js %}
+</script>
+
+<!-- ************************* END CHART ************************* -->
+
+<p><a href="https://jsfiddle.net/greenpeace/7wkhgr5m/" target="_blank">{{ site.data[page.lang_file].share_link }}</a></p>
 
 <p>&nbsp;</p>
 <hr />
