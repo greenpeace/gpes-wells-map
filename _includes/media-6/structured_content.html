@@ -1,6 +1,6 @@
 <style>
 
-#graficoExtracciones, #graficoPozos {
+    #total_pozos_ilegales, #total_extracciones_ilegales {
     background-color: #2ab20b;
     font: 700 14px Rubik,sans-serif;
     color: #fff !important;
@@ -11,13 +11,81 @@
     box-shadow: none;
     margin-bottom: 5px;
 }
+    
+    #denuncias_extracciones_ilegales {
+        margin-bottom: 1em;
+    }
 
 </style>
 <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
 
+<h3 id="tituloTotales">Pozos ilegales</h3>
+
+<div id="denuncias_pozos_ilegales"></div>
 <div id="denuncias_extracciones_ilegales"></div>
+
 <script>
   document.addEventListener("DOMContentLoaded", function(event) {
+    
+    // denuncias_pozos_ilegales
+    var denuncias_pozos_ilegales = [{
+      y: ['I', 'H', 'G', 'F', 'E', 'D', 'C', 'B', 'A'],
+      x: [0, 0, 0, 0, 0, 0, 0, 0, 100],
+      marker: {
+        color: ['rgba(255, 121, 84, 1)', 'rgba(255, 196, 167, 0.85)', 'rgba(255, 160, 0, 0.85)', 'rgba(253, 246, 178, 0.85)', 'rgba(255, 225, 159, 0.85)', 'rgba(218,241,250, 0.85)', 'rgba(215, 213, 161, 0.85)', 'rgba(195, 224, 166, 0.85)', 'rgba(122, 189, 148, 0.85)', 'rgba(91, 74, 89, 0.85)', 'rgba(134, 139, 134, 0.85)']
+      },
+      type: 'bar',
+      orientation: 'h'
+    }];
+
+    var layout_denuncias_pozos_ilegales = {
+      title: 'Número de denuncias por extracción de agua por pozo ilegal<br />2013 / 2017',
+      font: {
+        family: '"Work Sans",sans-serif',
+        size: 11,
+        color: '#212529'
+      },
+      titlefont: {
+        size: 16,
+        color: '#212529'
+      },
+      annotations: [{
+        x: 0,
+        y: 0,
+        xref: 'x',
+        yref: 'y',
+        text: 'No hay<br>datos disponibles',
+        showarrow: true,
+        arrowhead: 7,
+        ax: 70,
+        ay: 0
+      }],
+      margin: {
+        r: 10,
+        t: 55,
+        b: 80,
+        l: 90
+      },
+      paper_bgcolor: '#f6f6f5',
+      plot_bgcolor: '#f6f6f5',
+      xaxis: {
+        title: "Número de denuncias",
+        fixedrange: true
+      },
+      yaxis: {
+        title: "Confederaciones hidrográficas",
+        fixedrange: true
+      }
+
+    }
+
+    Plotly.newPlot('denuncias_pozos_ilegales', denuncias_pozos_ilegales, layout_denuncias_pozos_ilegales, {
+      displayModeBar: false
+    });
+      
+      
+      
+    // denuncias_extracciones_ilegales  
     var denuncias_extracciones_ilegales = [{
       y: ['Ebro', 'Segura', 'Cantábrico', 'Júcar', 'Miño', 'Guadiana', 'Tajo', 'Guadalquivir', 'Duero'],
       x: [0, 109, 136, 147, 265, 540, 607, 974, 1305],
@@ -72,12 +140,29 @@
     Plotly.newPlot('denuncias_extracciones_ilegales', denuncias_extracciones_ilegales, layout_denuncias_extracciones_ilegales, {
       displayModeBar: false
     });
+      
+    /**
+     * Manages the click in the buttons
+     */
+    var total_pozos_ilegales = document.getElementById("total_pozos_ilegales");
+    var total_extracciones_ilegales = document.getElementById("total_extracciones_ilegales");
+    var tituloTotales = document.getElementById("tituloTotales");
+      
+    total_pozos_ilegales.addEventListener("click", function () {
+        tituloTotales.textContent = "Pozos ilegales";
+
+    });
+      
+    total_extracciones_ilegales.addEventListener("click", function () {
+        tituloTotales.textContent = "Extracciones ilegales";
+
+    }); 
 
   });
 
 </script>
 
 <p>
-<button id="graficoExtracciones" type="button">Extracciones</button>
-<button id="graficoPozos" type="button">Pozos</button>
+<button id="total_pozos_ilegales" type="button">Pozos</button>
+<button id="total_extracciones_ilegales" type="button">Extracciones</button>
 </p>
