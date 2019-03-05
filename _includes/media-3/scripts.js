@@ -103,12 +103,16 @@ document.addEventListener("DOMContentLoaded", function (t) {
         osmap.off();
         osmap.remove();
         drawSancionesJucar();
+        numSanciones.classList.add("btactive");
+        valorDanos.classList.remove("btactive");
     });
     valorDanos.addEventListener("click", function () {
         TituloGraficoAndalucia.textContent = "{{ site.data[page.lang_file].media.damage_value }}";
         osmap.off();
         osmap.remove();
         drawValorJucar();
+        valorDanos.classList.add("btactive");
+        numSanciones.classList.remove("btactive");
     });
 
 

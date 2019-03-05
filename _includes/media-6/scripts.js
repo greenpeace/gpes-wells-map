@@ -174,12 +174,16 @@ document.addEventListener("DOMContentLoaded", function (event) {
       Plotly.newPlot('graficos_pozos', denuncias_pozos_ilegales, layout_denuncias_pozos_ilegales, {
           displayModeBar: false
       });
+        total_pozos_ilegales.classList.add("btactive");
+        total_extracciones_ilegales.classList.remove("btactive");
 
     });
     total_extracciones_ilegales.addEventListener("click", function () {
       Plotly.newPlot('graficos_pozos', denuncias_extracciones_ilegales, layout_denuncias_extracciones_ilegales, {
           displayModeBar: false
       });
+        total_extracciones_ilegales.classList.add("btactive");
+        total_pozos_ilegales.classList.remove("btactive");
     });
 
 });

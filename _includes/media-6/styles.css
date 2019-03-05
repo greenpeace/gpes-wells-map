@@ -14,3 +14,11 @@
 #denuncias_extracciones_ilegales {
     margin-bottom: 1em;
 }
+
+#total_pozos_ilegales.btactive, #total_extracciones_ilegales.btactive {
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.70);
+}
+
+#graficos_pozos {
+    margin-bottom: 1em;
+}
