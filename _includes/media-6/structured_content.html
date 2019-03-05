@@ -1,3 +1,18 @@
+<style>
+
+#graficoExtracciones, #graficoPozos {
+    background-color: #2ab20b;
+    font: 700 14px Rubik,sans-serif;
+    color: #fff !important;
+    padding: 6px 8px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    box-shadow: none;
+    margin-bottom: 5px;
+}
+
+</style>
 <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
 <div id="myDiv"></div>
 <script>
@@ -58,3 +73,8 @@
   });
 
 </script>
+
+<p>
+<button id="graficoExtracciones" type="button">Extracciones</button>
+<button id="graficoPozos" type="button">Pozos</button>
+</p>
