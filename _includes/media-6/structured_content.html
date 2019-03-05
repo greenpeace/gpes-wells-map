@@ -1,25 +1,20 @@
 <style>
-
     #total_pozos_ilegales, #total_extracciones_ilegales {
-    background-color: #2ab20b;
-    font: 700 14px Rubik,sans-serif;
-    color: #fff !important;
-    padding: 6px 8px;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-    box-shadow: none;
-    margin-bottom: 5px;
-}
-    
+        background-color: #2ab20b;
+        font: 700 14px Rubik,sans-serif;
+        color: #fff !important;
+        padding: 6px 8px;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+        box-shadow: none;
+        margin-bottom: 5px;
+    }
     #denuncias_extracciones_ilegales {
         margin-bottom: 1em;
     }
-
 </style>
 <script src="https://cdn.plot.ly/plotly-latest.min.js" defer></script>
-
-<h3 id="tituloTotales">Pozos ilegales</h3>
 
 <div id="graficos_pozos"></div>
 
@@ -38,7 +33,9 @@
     colores["Tajo"] = 'rgba(195, 224, 166, 0.85)';
     colores["Guadalquivir"] = 'rgba(122, 189, 148, 0.85)';
       
-    // denuncias_pozos_ilegales
+    /**
+     * Denuncias pozos ilegales
+     */
     var denuncias_pozos_ilegales = [{
       y: [
           'Júcar', 
@@ -109,14 +106,10 @@
       }
 
     }
-
-    Plotly.newPlot('graficos_pozos', denuncias_pozos_ilegales, layout_denuncias_pozos_ilegales, {
-      displayModeBar: false
-    });
       
-      
-      
-    // denuncias_extracciones_ilegales  
+    /**
+     * Denuncias extracciones ilegales
+     */
     var denuncias_extracciones_ilegales = [{
       y: [
           'Ebro', 
@@ -188,27 +181,26 @@
 
     }
 
-    
-      
     /**
-     * Manages the click in the buttons
+     * Intialize the map and manages the click in the buttons
      */
+    
+    Plotly.newPlot('graficos_pozos', denuncias_pozos_ilegales, layout_denuncias_pozos_ilegales, {
+      displayModeBar: false
+    });
+    
     var total_pozos_ilegales = document.getElementById("total_pozos_ilegales");
     var total_extracciones_ilegales = document.getElementById("total_extracciones_ilegales");
     var tituloTotales = document.getElementById("tituloTotales");
       
     total_pozos_ilegales.addEventListener("click", function () {
-        tituloTotales.textContent = "Pozos ilegales";
-        
-    Plotly.newPlot('graficos_pozos', denuncias_pozos_ilegales, layout_denuncias_pozos_ilegales, {
-      displayModeBar: false
-    });
+        Plotly.newPlot('graficos_pozos', denuncias_pozos_ilegales, layout_denuncias_pozos_ilegales, {
+          displayModeBar: false
+        });
 
     });
       
     total_extracciones_ilegales.addEventListener("click", function () {
-        tituloTotales.textContent = "Extracciones ilegales";
-
         Plotly.newPlot('graficos_pozos', denuncias_extracciones_ilegales, layout_denuncias_extracciones_ilegales, {
           displayModeBar: false
         });
