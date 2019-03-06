@@ -2,7 +2,7 @@ language: "es-ES"
 lang: "es"
 
 media:
-    num_sanctions: "Número de sanciones"
+    num_sanctions: "Número de denuncias"
     damage_value: "Daño en euros"
     footnote: "Nota: Haz click en los circulos para más información. Para que todos los puntos sean visibles se les ha añadido un valor base."
 
