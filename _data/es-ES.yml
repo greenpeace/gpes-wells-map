@@ -17,8 +17,8 @@ titles:
     media-6: "Gráfico"
 
 media-6:
-    title-1: "Nº de denuncias por pozos ilegales"
-    title-2: "Nº de denuncias por otras extracciones ilegales"
+    title-1: ""
+    title-2: ""
     num-den: "Número de denuncias"
     confed: "Confederaciones hidrográficas"
     no-data: "No hay<br>datos disponibles"
