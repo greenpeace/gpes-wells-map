@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
           y: 0,
           xref: 'x',
           yref: 'y',
-          text: '{{ site.data[page.lang_file].media-6.no-data }} (???)',
+          text: '{{ site.data[page.lang_file].media-6.no-data }}',
           showarrow: true,
           arrowhead: 7,
           ax: 70,

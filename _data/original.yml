@@ -22,5 +22,5 @@ media-6:
     num-den: "Número de denuncias"
     confed: "Confederaciones hidrográficas"
     no-data: "No hay<br>datos disponibles"
-    wells: "Pozos"
-    extrac: "Extracciones"
+    wells: "Pozos ilegales"
+    extrac: "Otras extracciones ilegales"

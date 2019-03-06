@@ -17,10 +17,10 @@ titles:
     media-6: "Graph"
 
 media-6:
-    title-1: "Nº de denuncias por extracción de agua por pozo ilegal"
-    title-2: "Nº de denuncias por el resto de extracciones ilegales de agua"
-    num-den: "Número de denuncias"
-    confed: "Confederaciones hidrográficas"
-    no-data: "No hay<br>datos disponibles"
-    wells: "Pozos"
-    extrac: "Extracciones"
+    title-1: "Nº of complaints about illegal wells"
+    title-2: "Nº of complaints about other illegal extractions"
+    num-den: "Number of complaints"
+    confed: "Hydrographic Confederations"
+    no-data: "There's no<br>data available"
+    wells: "Illegal wells"
+    extrac: "Other illegal extractions"
