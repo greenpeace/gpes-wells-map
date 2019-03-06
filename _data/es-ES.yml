@@ -3,13 +3,13 @@ lang: "es"
 
 media:
     num_sanctions: "Número de sanciones"
-    damage_value: "Valor de los daños"
+    damage_value: "Daño en euros"
     footnote: "Nota: Haz click en los circulos para más información. Para que todos los puntos sean visibles se les ha añadido un valor base."
 
 share_link: "Código fuente (español) - Publica este mapa en tu sitio web."
 
 titles:
-    media-1: "Pozos ilegales y daño provocado en euros en el Guadalquivir"
+    media-1: "Pozos ilegales en el Guadalquivir"
     media-2: "Nº de sanciones por pozos ilegales y daño en euros en el Tajo"
     media-3: "Nº de sanciones por pozos ilegales y daño en euros en el Júcar"
     media-4: "Guadalquivir extracción"
