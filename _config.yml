@@ -4,5 +4,6 @@ markdown: kramdown
 title: "Mapas y gráficos de pozos"
 long_title: "Desarollo de los mapas y gráficos de pozos"
 css_js_server: ""
+version: ""
 lead: >
   <p></p>
