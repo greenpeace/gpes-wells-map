@@ -3,5 +3,6 @@ github_repository: gpes-wells-map
 markdown: kramdown
 title: "Mapas y gráficos de pozos"
 long_title: "Desarollo de los mapas y gráficos de pozos"
+css_js_server: ""
 lead: >
   <p></p>

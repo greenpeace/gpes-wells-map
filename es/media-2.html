@@ -6,8 +6,8 @@ lang_file: es-ES
 ---
 
 <h2>{{ site.data[page.lang_file].titles.media-2 }}</h2>
-<link rel="stylesheet" href="media-2.css" />
+<link rel="stylesheet" href="{{ site.css_js_server }}media-2.css" />
 {% include media-2/structured_content.html %}
-<script src="media-2.js" defer></script>
+<script src="{{ site.css_js_server }}media-2.js" defer></script>
 <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" defer></script>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
