@@ -9,16 +9,16 @@ media:
 share_link: "Código fuente (español) - Publica este mapa en tu sitio web."
 
 titles:
-    media-1: "Guadalquivir pozos"
-    media-2: "Tajo pozos"
-    media-3: "Júcar pozos"
+    media-1: "Nº de sanciones por pozos ilegales y daño en euros en el Guadalquivir"
+    media-2: "Nº de sanciones por pozos ilegales y daño en euros en el Tajo"
+    media-3: "Nº de sanciones por pozos ilegales y daño en euros en el Júcar"
     media-4: "Guadalquivir extracción"
     media-5: "Tajo extracción"
     media-6: "Gráfico"
 
 media-6:
-    title-1: "Nº de denuncias por extracción de agua por pozo ilegal"
-    title-2: "Nº de denuncias por el resto de extracciones ilegales de agua"
+    title-1: "Nº de denuncias por pozos ilegales"
+    title-2: "Nº de denuncias por otras extracciones ilegales"
     num-den: "Número de denuncias"
     confed: "Confederaciones hidrográficas"
     no-data: "No hay<br>datos disponibles"
