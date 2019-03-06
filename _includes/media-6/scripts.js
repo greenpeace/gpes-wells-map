@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }];
 
     var layout_denuncias_pozos_ilegales = {
-      title: '{{ site.data[page.lang_file].media-6.title-1 }}<br />2013 / 2017',
+      title: '2013 / 2017',
       font: {
           family: '"Work Sans",sans-serif',
           size: 11,
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     }];
 
     var layout_denuncias_extracciones_ilegales = {
-      title: '{{ site.data[page.lang_file].media-6.title-2 }}<br />2013 / 2017',
+      title: '2013 / 2017',
       font: {
           family: '"Work Sans",sans-serif',
           size: 11,
@@ -176,6 +176,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
       });
         total_pozos_ilegales.classList.add("btactive");
         total_extracciones_ilegales.classList.remove("btactive");
+        tituloTotales.textContent = "{{ site.data[page.lang_file].media-6.wells }}";
+        console.log("Pozos");
 
     });
     total_extracciones_ilegales.addEventListener("click", function () {
@@ -184,6 +186,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
       });
         total_extracciones_ilegales.classList.add("btactive");
         total_pozos_ilegales.classList.remove("btactive");
+        console.log("Extracciones");
+        tituloTotales.textContent = "{{ site.data[page.lang_file].media-6.extrac }}";
     });
 
 });
