@@ -17,6 +17,12 @@ titles:
     media-5: "Otras extracciones ilegales en el Tajo (2013-17)"
     media-6: "Número de denuncias tramitadas"
 
+sources:
+    source: "Fuente:"
+    guadalquivir: "Confederación Hidrográfica del Guadalquivir"
+    tajo: "Confederación Hidrográfica del Tajo"
+    jucar: "Confederación Hidrográfica del Júcar"
+
 media-6:
     title-1: ""
     title-2: ""
