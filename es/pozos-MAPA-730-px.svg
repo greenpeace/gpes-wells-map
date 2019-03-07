@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 22.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 730 929.408" style="enable-background:new 0 0 730 929.408;" xml:space="preserve">
+	 viewBox="0 0 730 929.408" width="730" height="930" style="enable-background:new 0 0 730 929.408;" xml:space="preserve">
 <style type="text/css">
+	@import url(https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Work+Sans:400,500,600,700);
 	.st0{fill:#DAF1FA;}
 	.st1{fill:#868B86;}
 	.st2{fill:#5B4A59;}
@@ -28,18 +29,18 @@
 	.st20{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st21{fill-rule:evenodd;clip-rule:evenodd;fill:#2AB20B;}
 	.st22{fill:none;}
-	.st23{font-family:'Rubik-Medium';}
+	.st23{font-family:'Rubik'; font-weight: 500;}
 	.st24{font-size:29px;}
 	
 		.st25{fill:none;stroke:#5B4A59;stroke-width:0.8475;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.864;stroke-dasharray:5.6499,2.2599;}
 	.st26{fill:none;stroke:#C7B299;stroke-width:0.565;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st27{font-family:'WorkSans-Regular';}
+	.st27{font-family:'Work Sans';}
 	.st28{font-size:18px;}
-	.st29{font-family:'WorkSans-Bold';}
+	.st29{font-family:'Work Sans'; font-weight: bold;}
 	.st30{font-size:15px;}
 	.st31{fill:#FFFFFF;}
 	.st32{font-size:23.7554px;}
-	.st33{font-family:'WorkSans-Medium';}
+	.st33{font-family:'Work Sans';}
 	
 		.st34{fill:none;stroke:#5B4A59;stroke-width:0.6137;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.864;stroke-dasharray:4.0911,1.6364;}
 	.st35{fill:none;stroke:#C7B299;stroke-width:0.4091;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
