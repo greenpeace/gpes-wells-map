@@ -25,4 +25,12 @@
 
 #tituloTotales {
     font-size: 23px !important;
+    font-weight: 500 !important;
+    font-family: "Rubik", sans-serif !important;
+}
+
+.topTitlePiece {
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    font-family: "Rubik", sans-serif !important;
 }

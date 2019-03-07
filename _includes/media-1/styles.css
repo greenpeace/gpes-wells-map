@@ -21,6 +21,8 @@
 
 #tituloGraficoAndalucia {
     font-size: 23px !important;
+    font-weight: 500 !important;
+    font-family: "Rubik", sans-serif !important;
 }
 
 #numSancionesAndalucia, #valorDanosAndalucia {
@@ -37,6 +39,12 @@
 
 #numSancionesAndalucia.btactive, #valorDanosAndalucia.btactive {
     box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.70);
+}
+
+.topTitlePiece {
+    font-size: 28px !important;
+    font-weight: 500 !important;
+    font-family: "Rubik", sans-serif !important;
 }
 
 /* END STYLES */
