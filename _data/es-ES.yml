@@ -15,12 +15,12 @@ titles:
     media-3: "Otras extracciones ilegales en el Júcar"
     media-4: "Otras extracciones ilegales en el Guadalquivir"
     media-5: "Otras extracciones ilegales en el Tajo"
-    media-6: "Número de denuncias"
+    media-6: "Número de denuncias tramitadas"
 
 media-6:
     title-1: ""
     title-2: ""
-    num-den: "Número de denuncias tramitadas"
+    num-den: "Número de denuncias"
     confed: "Confederaciones hidrográficas"
     no-data: "No hay<br>datos disponibles"
     wells: "Pozos ilegales"
