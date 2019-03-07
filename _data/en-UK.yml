@@ -7,6 +7,7 @@ media:
     footnote: "Note: Click the circles for more information. To ensure all points are visible we've added a base value."
 
 share_link: "Source code (Spanish) - Publish this map on your website."
+data_link: "Open data"
 
 titles:
     media-1: "Guadalquivir wells"
@@ -15,10 +16,17 @@ titles:
     media-4: "Guadalquivir extraction"
     media-5: "Tagus extraction"
     media-6: "Graph"
+    media-7: "Infographic"
+
+sources:
+    source: "Source:"
+    guadalquivir: "Confederación Hidrográfica del Guadalquivir"
+    tajo: "Confederación Hidrográfica del Tajo"
+    jucar: "Confederación Hidrográfica del Júcar"
 
 media-6:
-    title-1: "Nº of complaints about illegal wells"
-    title-2: "Nº of complaints about other illegal extractions"
+    title-1: ""
+    title-2: ""
     num-den: "Number of complaints"
     confed: "Hydrographic Confederations"
     no-data: "There's no<br>data available"

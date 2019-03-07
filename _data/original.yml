@@ -2,24 +2,32 @@ language: "es-ES"
 lang: "es"
 
 media:
-    num_sanctions: "Número de sanciones"
+    num_sanctions: "Denuncias tramitadas"
     damage_value: "Daño en euros"
     footnote: "Nota: Haz click en los circulos para más información. Para que todos los puntos sean visibles se les ha añadido un valor base."
 
 share_link: "Código fuente (español) - Publica este mapa en tu sitio web."
+data_link: "Datos abiertos"
 
 titles:
-    media-1: "Pozos ilegales en el Guadalquivir"
-    media-2: "Pozos ilegales en el Tajo"
-    media-3: "Otras extracciones ilegales en el Júcar"
-    media-4: "Otras extracciones ilegales en el Guadalquivir"
-    media-5: "Otras extracciones ilegales en el Tajo"
-    media-6: "Número de denuncias"
+    media-1: "Pozos ilegales en el Guadalquivir (2013-17)"
+    media-2: "Pozos ilegales en el Tajo (2013-17)"
+    media-3: "Otras extracciones ilegales en el Júcar (2013-17)"
+    media-4: "Otras extracciones ilegales en el Guadalquivir (2013-17)"
+    media-5: "Otras extracciones ilegales en el Tajo (2013-17)"
+    media-6: "Número de denuncias tramitadas"
+    media-7: "Infografía"
+
+sources:
+    source: "Fuente:"
+    guadalquivir: "Confederación Hidrográfica del Guadalquivir"
+    tajo: "Confederación Hidrográfica del Tajo"
+    jucar: "Confederación Hidrográfica del Júcar"
 
 media-6:
     title-1: ""
     title-2: ""
-    num-den: "Número de denuncias"
+    num-den: "Número de denuncias tramitadas"
     confed: "Confederaciones hidrográficas"
     no-data: "No hay<br>datos disponibles"
     wells: "Pozos ilegales"
