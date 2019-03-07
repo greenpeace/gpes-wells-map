@@ -20,7 +20,7 @@ titles:
 media-6:
     title-1: ""
     title-2: ""
-    num-den: "Número de denuncias"
+    num-den: "Número de denuncias tramitadas"
     confed: "Confederaciones hidrográficas"
     no-data: "No hay<br>datos disponibles"
     wells: "Pozos ilegales"
