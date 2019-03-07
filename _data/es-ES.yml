@@ -2,7 +2,7 @@ language: "es-ES"
 lang: "es"
 
 media:
-    num_sanctions: "Número de denuncias"
+    num_sanctions: "Denuncias tramitadas"
     damage_value: "Daño en euros"
     footnote: "Nota: Haz click en los circulos para más información. Para que todos los puntos sean visibles se les ha añadido un valor base."
 
@@ -20,7 +20,7 @@ titles:
 media-6:
     title-1: ""
     title-2: ""
-    num-den: "Número de denuncias"
+    num-den: "Número de denuncias tramitadas"
     confed: "Confederaciones hidrográficas"
     no-data: "No hay<br>datos disponibles"
     wells: "Pozos ilegales"
